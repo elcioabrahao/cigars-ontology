@@ -1,0 +1,117 @@
+term,fqn,synonym
+Ash,cigars.Cigar Anatomy.Ash,Stack
+Band,cigars.Cigar Anatomy.Band,anilla
+Binder,cigars.Cigar Anatomy.Binder,banda
+Binder,cigars.Cigar Anatomy.Binder,capote
+Filler,cigars.Cigar Anatomy.Filler,tripa
+Wrapper,cigars.Cigar Anatomy.Wrapper,capa
+Wrapper,cigars.Cigar Anatomy.Wrapper,cover leaf
+Brother Of The Leaf,cigars.Cigar Culture and Commerce.Brother Of The Leaf,BOTL
+Habanos SA,cigars.Cigar Culture and Commerce.Habanos SA,Habanos S.A.
+IPCPR,cigars.Cigar Culture and Commerce.IPCPR,International Premium Cigar & Pipe Retailers Association
+IPCPR,cigars.Cigar Culture and Commerce.IPCPR,RTDA
+IPCPR,cigars.Cigar Culture and Commerce.IPCPR,Retail Tobacco Dealers of America
+Pre Castro Cigar,cigars.Cigar Culture and Commerce.Pre Castro Cigar,Pre-Castro
+Pre Embargo Cigar,cigars.Cigar Culture and Commerce.Pre Embargo Cigar,Pre-Embargo
+Small Batch,cigars.Cigar Culture and Commerce.Small Batch,small-batch
+Suggested Retail Price,cigars.Cigar Culture and Commerce.Suggested Retail Price,MSRP
+Suggested Retail Price,cigars.Cigar Culture and Commerce.Suggested Retail Price,Manufacturer's Suggested Retail Price
+Cedar Spill,cigars.Cigar Packaging.Cedar Spill,spill
+Eight Nine Eight,cigars.Cigar Packaging.Eight Nine Eight,8-9-8
+Glass Jar,cigars.Cigar Packaging.Glass Jar,Amatista jar
+Glass Jar,cigars.Cigar Packaging.Glass Jar,amatista
+Half Wheel,cigars.Cigar Packaging.Half Wheel,media rueda
+Semi Boite Nature,cigars.Cigar Packaging.Semi Boite Nature,Semi-Boite Nature
+Slide Lid Box,cigars.Cigar Packaging.Slide Lid Box,cabinet selection box
+Spanish Cedar,cigars.Cigar Packaging.Spanish Cedar,cedar
+Trim,cigars.Cigar Packaging.Trim,filete
+Tube,cigars.Cigar Packaging.Tube,Tubos
+Tube,cigars.Cigar Packaging.Tube,tubo
+Wheel,cigars.Cigar Packaging.Wheel,rueda
+Blend,cigars.Cigar Production.Blend,Blending
+Bunch,cigars.Cigar Production.Bunch,bonche
+Buncher,cigars.Cigar Production.Buncher,boncheros
+Buncher,cigars.Cigar Production.Buncher,bunchers
+Bunching Machine,cigars.Cigar Production.Bunching Machine,Lieberman
+Bunching Machine,cigars.Cigar Production.Bunching Machine,Temsco
+Cigar Maker,cigars.Cigar Production.Cigar Maker,cigar-maker
+Color Sorting,cigars.Cigar Production.Color Sorting,escogida
+Destemming,cigars.Cigar Production.Destemming,despalillo
+Destemming,cigars.Cigar Production.Destemming,stemming
+Entubar,cigars.Cigar Production.Entubar,entubado
+Flag Tip,cigars.Cigar Production.Flag Tip,curly head
+Flag Tip,cigars.Cigar Production.Flag Tip,pigtail
+Hand Rolled,cigars.Cigar Production.Hand Rolled,hand-rolled
+Homogenized Tobacco Leaf,cigars.Cigar Production.Homogenized Tobacco Leaf,HTL
+Machine Made,cigars.Cigar Production.Machine Made,mass-market
+Mixed Filler,cigars.Cigar Production.Mixed Filler,Cuban sandwich
+Multi Origin Blend,cigars.Cigar Production.Multi Origin Blend,Multi-Origin Blend
+Roller,cigars.Cigar Production.Roller,torcedor
+Short Filler,cigars.Cigar Production.Short Filler,chop
+Short Filler,cigars.Cigar Production.Short Filler,chopped-filler
+Short Filler,cigars.Cigar Production.Short Filler,picadura
+Triple Cap,cigars.Cigar Production.Triple Cap,mounted head
+Aging,cigars.Curing and Fermentation.Aging,Ageing
+Aging Room,cigars.Curing and Fermentation.Aging Room,Ageing Room
+Casing,cigars.Curing and Fermentation.Casing,case
+Cuje,cigars.Curing and Fermentation.Cuje,lathe
+Curing Barn,cigars.Curing and Fermentation.Curing Barn,casa de tabaco
+Pilon,cigars.Curing and Fermentation.Pilon,bulk
+Pilon,cigars.Curing and Fermentation.Pilon,burro
+Pilon,cigars.Curing and Fermentation.Pilon,pilón
+Pilon,cigars.Curing and Fermentation.Pilon,trojes
+Aroma,cigars.Storage and Smoking.Aroma,bouquet
+Aroma,cigars.Storage and Smoking.Aroma,room note
+Bleeding,cigars.Storage and Smoking.Bleeding,purging (lighter)
+Bloom,cigars.Storage and Smoking.Bloom,plume
+Cold Draw,cigars.Storage and Smoking.Cold Draw,cold taste
+Cold Draw,cigars.Storage and Smoking.Cold Draw,dry draw
+Guillotine,cigars.Storage and Smoking.Guillotine,straight cutter
+Humidification Element,cigars.Storage and Smoking.Humidification Element,humidification unit
+Humidification Element,cigars.Storage and Smoking.Humidification Element,reservoir
+Loose,cigars.Storage and Smoking.Loose,underfilled
+Nosing,cigars.Storage and Smoking.Nosing,retronasal olfaction
+Piercer,cigars.Storage and Smoking.Piercer,lance
+Plugged,cigars.Storage and Smoking.Plugged,Plug
+Propylene Glycol,cigars.Storage and Smoking.Propylene Glycol,50/50
+Punch Cutter,cigars.Storage and Smoking.Punch Cutter,Punch
+Punch Cutter,cigars.Storage and Smoking.Punch Cutter,bull's eye piercer
+Punch Cutter,cigars.Storage and Smoking.Punch Cutter,bullet cutter
+Tobacco Beetle,cigars.Storage and Smoking.Tobacco Beetle,beetle
+Tunneling,cigars.Storage and Smoking.Tunneling,Tunnelling
+V Cutter,cigars.Storage and Smoking.V Cutter,V-cut
+V Cutter,cigars.Storage and Smoking.V Cutter,V-cutter
+V Cutter,cigars.Storage and Smoking.V Cutter,cat's eye
+V Cutter,cigars.Storage and Smoking.V Cutter,wedge cutter
+Libre de Pie,cigars.Tobacco Cultivation.Libre de Pie,sand leaf
+Nicotiana Tabacum,cigars.Tobacco Cultivation.Nicotiana Tabacum,cultivated tobacco
+Seedbed,cigars.Tobacco Cultivation.Seedbed,cantero
+Sucker,cigars.Tobacco Cultivation.Sucker,suckers
+Tobacco Seed,cigars.Tobacco Cultivation.Tobacco Seed,Tobacco Seeds
+Topping,cigars.Tobacco Cultivation.Topping,desflorado
+Connecticut River Valley,cigars.Tobaccos and Origins.Connecticut River Valley,Connecticut
+Esteli,cigars.Tobaccos and Origins.Esteli,Estelí
+Havana,cigars.Tobaccos and Origins.Havana,Habana
+Jamastran,cigars.Tobaccos and Origins.Jamastran,Jamastrán
+Pelo D Oro,cigars.Tobaccos and Origins.Pelo D Oro,Pelo d'Oro
+Pelo D Oro,cigars.Tobaccos and Origins.Pelo D Oro,Pelo de Oro
+Piloto Cubano,cigars.Tobaccos and Origins.Piloto Cubano,Piloto
+San Andres,cigars.Tobaccos and Origins.San Andres,San Andrés
+San Andres,cigars.Tobaccos and Origins.San Andres,San Andrés Negro
+A Size,cigars.Vitolas.A Size,A
+Gorda,cigars.Vitolas.Gorda,Gordo
+Panetela,cigars.Vitolas.Panetela,Panatela
+Parejo,cigars.Vitolas.Parejo,Parejos
+Salomon,cigars.Vitolas.Salomon,Salomón
+Torpedo,cigars.Vitolas.Torpedo,Pirámide
+Torpedo,cigars.Vitolas.Torpedo,pyramid
+Trunk Pressed,cigars.Vitolas.Trunk Pressed,trunk-pressed
+Vitola,cigars.Vitolas.Vitola,frontmark
+Candela,cigars.Wrapper Colors.Candela,AMS
+Candela,cigars.Wrapper Colors.Candela,American Market Selection
+Candela,cigars.Wrapper Colors.Candela,Double Claro
+Colorado,cigars.Wrapper Colors.Colorado,Rojizo
+Natural,cigars.Wrapper Colors.Natural,Colorado Claro
+Natural,cigars.Wrapper Colors.Natural,EMS
+Natural,cigars.Wrapper Colors.Natural,English Market Selection
+Oscuro,cigars.Wrapper Colors.Oscuro,Double Maduro

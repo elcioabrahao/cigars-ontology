@@ -1,0 +1,1181 @@
+@prefix cigars: <http://localhost:8000/ontology/cigars/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:8000/ontology/cigars/A%20Size/shape> a sh:NodeShape ;
+    sh:name "A Size" ;
+    sh:targetClass cigars:A%20Size .
+
+<http://localhost:8000/ontology/cigars/Accordion%20Method/shape> a sh:NodeShape ;
+    sh:name "Accordion Method" ;
+    sh:targetClass cigars:Accordion%20Method .
+
+<http://localhost:8000/ontology/cigars/Active%20Humidification%20System/shape> a sh:NodeShape ;
+    sh:name "Active Humidification System" ;
+    sh:targetClass cigars:Active%20Humidification%20System .
+
+<http://localhost:8000/ontology/cigars/Aging%20Room/shape> a sh:NodeShape ;
+    sh:name "Aging Room" ;
+    sh:targetClass cigars:Aging%20Room .
+
+<http://localhost:8000/ontology/cigars/Aging/shape> a sh:NodeShape ;
+    sh:name "Aging" ;
+    sh:property <http://localhost:8000/ontology/cigars/Aging.months/shape> ;
+    sh:targetClass cigars:Aging .
+
+<http://localhost:8000/ontology/cigars/Amarillo/shape> a sh:NodeShape ;
+    sh:name "Amarillo" ;
+    sh:targetClass cigars:Amarillo .
+
+<http://localhost:8000/ontology/cigars/Ammonia/shape> a sh:NodeShape ;
+    sh:name "Ammonia" ;
+    sh:targetClass cigars:Ammonia .
+
+<http://localhost:8000/ontology/cigars/Arapiraca/shape> a sh:NodeShape ;
+    sh:name "Arapiraca" ;
+    sh:targetClass cigars:Arapiraca .
+
+<http://localhost:8000/ontology/cigars/Aroma%20Wheel/shape> a sh:NodeShape ;
+    sh:name "Aroma Wheel" ;
+    sh:targetClass cigars:Aroma%20Wheel .
+
+<http://localhost:8000/ontology/cigars/Aroma/shape> a sh:NodeShape ;
+    sh:name "Aroma" ;
+    sh:targetClass cigars:Aroma .
+
+<http://localhost:8000/ontology/cigars/Ash/shape> a sh:NodeShape ;
+    sh:name "Ash" ;
+    sh:targetClass cigars:Ash .
+
+<http://localhost:8000/ontology/cigars/Bale/shape> a sh:NodeShape ;
+    sh:name "Bale" ;
+    sh:targetClass cigars:Bale .
+
+<http://localhost:8000/ontology/cigars/Band/shape> a sh:NodeShape ;
+    sh:name "Band" ;
+    sh:targetClass cigars:Band .
+
+<http://localhost:8000/ontology/cigars/Belicoso/shape> a sh:NodeShape ;
+    sh:name "Belicoso" ;
+    sh:targetClass cigars:Belicoso .
+
+<http://localhost:8000/ontology/cigars/Bethune/shape> a sh:NodeShape ;
+    sh:name "Bethune" ;
+    sh:targetClass cigars:Bethune .
+
+<http://localhost:8000/ontology/cigars/Binder/shape> a sh:NodeShape ;
+    sh:name "Binder" ;
+    sh:targetClass cigars:Binder .
+
+<http://localhost:8000/ontology/cigars/Bleeding%20the%20Lighter/shape> a sh:NodeShape ;
+    sh:name "Bleeding the Lighter" ;
+    sh:targetClass cigars:Bleeding%20the%20Lighter .
+
+<http://localhost:8000/ontology/cigars/Bleeding/shape> a sh:NodeShape ;
+    sh:name "Bleeding" ;
+    sh:targetClass cigars:Bleeding .
+
+<http://localhost:8000/ontology/cigars/Blend/shape> a sh:NodeShape ;
+    sh:name "Blend" ;
+    sh:targetClass cigars:Blend .
+
+<http://localhost:8000/ontology/cigars/Blind%20Taste/shape> a sh:NodeShape ;
+    sh:name "Blind Taste" ;
+    sh:targetClass cigars:Blind%20Taste .
+
+<http://localhost:8000/ontology/cigars/Bloom/shape> a sh:NodeShape ;
+    sh:name "Bloom" ;
+    sh:targetClass cigars:Bloom .
+
+<http://localhost:8000/ontology/cigars/Blowout%20Bin/shape> a sh:NodeShape ;
+    sh:name "Blowout Bin" ;
+    sh:targetClass cigars:Blowout%20Bin .
+
+<http://localhost:8000/ontology/cigars/Blue%20Mold/shape> a sh:NodeShape ;
+    sh:name "Blue Mold" ;
+    sh:targetClass cigars:Blue%20Mold .
+
+<http://localhost:8000/ontology/cigars/Bofeton/shape> a sh:NodeShape ;
+    sh:name "Bofeton" ;
+    sh:targetClass cigars:Bofeton .
+
+<http://localhost:8000/ontology/cigars/Boite%20Nature/shape> a sh:NodeShape ;
+    sh:name "Boite Nature" ;
+    sh:targetClass cigars:Boite%20Nature .
+
+<http://localhost:8000/ontology/cigars/Bonao/shape> a sh:NodeShape ;
+    sh:name "Bonao" ;
+    sh:targetClass cigars:Bonao .
+
+<http://localhost:8000/ontology/cigars/Booking/shape> a sh:NodeShape ;
+    sh:name "Booking" ;
+    sh:targetClass cigars:Booking .
+
+<http://localhost:8000/ontology/cigars/Boutique/shape> a sh:NodeShape ;
+    sh:name "Boutique" ;
+    sh:targetClass cigars:Boutique .
+
+<http://localhost:8000/ontology/cigars/Box%20Aging/shape> a sh:NodeShape ;
+    sh:name "Box Aging" ;
+    sh:targetClass cigars:Box%20Aging .
+
+<http://localhost:8000/ontology/cigars/Box%20Code/shape> a sh:NodeShape ;
+    sh:name "Box Code" ;
+    sh:property <http://localhost:8000/ontology/cigars/Box%20Code/shape/http%3A%2F%2Flocalhost%3A8000%2Fontology%2Fcigars%2FBox%2520Code.code> ;
+    sh:targetClass cigars:Box%20Code .
+
+<http://localhost:8000/ontology/cigars/Box%20Pressed/shape> a sh:NodeShape ;
+    sh:name "Box Pressed" ;
+    sh:targetClass cigars:Box%20Pressed .
+
+<http://localhost:8000/ontology/cigars/Box/shape> a sh:NodeShape ;
+    sh:name "Box" ;
+    sh:targetClass cigars:Box .
+
+<http://localhost:8000/ontology/cigars/Brooch/shape> a sh:NodeShape ;
+    sh:name "Brooch" ;
+    sh:targetClass cigars:Brooch .
+
+<http://localhost:8000/ontology/cigars/Brother%20Of%20The%20Leaf/shape> a sh:NodeShape ;
+    sh:name "Brother Of The Leaf" ;
+    sh:targetClass cigars:Brother%20Of%20The%20Leaf .
+
+<http://localhost:8000/ontology/cigars/Buckeye/shape> a sh:NodeShape ;
+    sh:name "Buckeye" ;
+    sh:targetClass cigars:Buckeye .
+
+<http://localhost:8000/ontology/cigars/Bunch/shape> a sh:NodeShape ;
+    sh:name "Bunch" ;
+    sh:targetClass cigars:Bunch .
+
+<http://localhost:8000/ontology/cigars/Buncher/shape> a sh:NodeShape ;
+    sh:name "Buncher" ;
+    sh:targetClass cigars:Buncher .
+
+<http://localhost:8000/ontology/cigars/Bunching%20Machine/shape> a sh:NodeShape ;
+    sh:name "Bunching Machine" ;
+    sh:targetClass cigars:Bunching%20Machine .
+
+<http://localhost:8000/ontology/cigars/Bunching/shape> a sh:NodeShape ;
+    sh:name "Bunching" ;
+    sh:targetClass cigars:Bunching .
+
+<http://localhost:8000/ontology/cigars/Bundle/shape> a sh:NodeShape ;
+    sh:name "Bundle" ;
+    sh:targetClass cigars:Bundle .
+
+<http://localhost:8000/ontology/cigars/Butane/shape> a sh:NodeShape ;
+    sh:name "Butane" ;
+    sh:targetClass cigars:Butane .
+
+<http://localhost:8000/ontology/cigars/Cabinet%20Selection/shape> a sh:NodeShape ;
+    sh:name "Cabinet Selection" ;
+    sh:targetClass cigars:Cabinet%20Selection .
+
+<http://localhost:8000/ontology/cigars/Calfrisa/shape> a sh:NodeShape ;
+    sh:name "Calfrisa" ;
+    sh:targetClass cigars:Calfrisa .
+
+<http://localhost:8000/ontology/cigars/Cameroon/shape> a sh:NodeShape ;
+    sh:name "Cameroon" ;
+    sh:targetClass cigars:Cameroon .
+
+<http://localhost:8000/ontology/cigars/Candela/shape> a sh:NodeShape ;
+    sh:name "Candela" ;
+    sh:targetClass cigars:Candela .
+
+<http://localhost:8000/ontology/cigars/Canoeing/shape> a sh:NodeShape ;
+    sh:name "Canoeing" ;
+    sh:targetClass cigars:Canoeing .
+
+<http://localhost:8000/ontology/cigars/Cap/shape> a sh:NodeShape ;
+    sh:name "Cap" ;
+    sh:targetClass cigars:Cap .
+
+<http://localhost:8000/ontology/cigars/Carbon/shape> a sh:NodeShape ;
+    sh:name "Carbon" ;
+    sh:targetClass cigars:Carbon .
+
+<http://localhost:8000/ontology/cigars/Carotene/shape> a sh:NodeShape ;
+    sh:name "Carotene" ;
+    sh:targetClass cigars:Carotene .
+
+<http://localhost:8000/ontology/cigars/Casing/shape> a sh:NodeShape ;
+    sh:name "Casing" ;
+    sh:targetClass cigars:Casing .
+
+<http://localhost:8000/ontology/cigars/Cedar%20Spill/shape> a sh:NodeShape ;
+    sh:name "Cedar Spill" ;
+    sh:targetClass cigars:Cedar%20Spill .
+
+<http://localhost:8000/ontology/cigars/Cellophane/shape> a sh:NodeShape ;
+    sh:name "Cellophane" ;
+    sh:targetClass cigars:Cellophane .
+
+<http://localhost:8000/ontology/cigars/Chaveta/shape> a sh:NodeShape ;
+    sh:name "Chaveta" ;
+    sh:targetClass cigars:Chaveta .
+
+<http://localhost:8000/ontology/cigars/Cheesecloth/shape> a sh:NodeShape ;
+    sh:name "Cheesecloth" ;
+    sh:targetClass cigars:Cheesecloth .
+
+<http://localhost:8000/ontology/cigars/Cheroot/shape> a sh:NodeShape ;
+    sh:name "Cheroot" ;
+    sh:targetClass cigars:Cheroot .
+
+<http://localhost:8000/ontology/cigars/Chinchal/shape> a sh:NodeShape ;
+    sh:name "Chinchal" ;
+    sh:targetClass cigars:Chinchal .
+
+<http://localhost:8000/ontology/cigars/Churchill/shape> a sh:NodeShape ;
+    sh:name "Churchill" ;
+    sh:targetClass cigars:Churchill .
+
+<http://localhost:8000/ontology/cigars/Cibao%20Valley/shape> a sh:NodeShape ;
+    sh:name "Cibao Valley" ;
+    sh:targetClass cigars:Cibao%20Valley .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Anatomy/shape> a sh:NodeShape ;
+    sh:name "Cigar Anatomy" ;
+    sh:targetClass cigars:Cigar%20Anatomy .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Association%20of%20America/shape> a sh:NodeShape ;
+    sh:name "Cigar Association of America" ;
+    sh:targetClass cigars:Cigar%20Association%20of%20America .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Bar/shape> a sh:NodeShape ;
+    sh:name "Cigar Bar" ;
+    sh:targetClass cigars:Cigar%20Bar .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Boom/shape> a sh:NodeShape ;
+    sh:name "Cigar Boom" ;
+    sh:targetClass cigars:Cigar%20Boom .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Box%20Tool/shape> a sh:NodeShape ;
+    sh:name "Cigar Box Tool" ;
+    sh:targetClass cigars:Cigar%20Box%20Tool .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Case/shape> a sh:NodeShape ;
+    sh:name "Cigar Case" ;
+    sh:targetClass cigars:Cigar%20Case .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Culture%20and%20Commerce/shape> a sh:NodeShape ;
+    sh:name "Cigar Culture and Commerce" ;
+    sh:targetClass cigars:Cigar%20Culture%20and%20Commerce .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Lounge/shape> a sh:NodeShape ;
+    sh:name "Cigar Lounge" ;
+    sh:targetClass cigars:Cigar%20Lounge .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Maker/shape> a sh:NodeShape ;
+    sh:name "Cigar Maker" ;
+    sh:targetClass cigars:Cigar%20Maker .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Packaging/shape> a sh:NodeShape ;
+    sh:name "Cigar Packaging" ;
+    sh:targetClass cigars:Cigar%20Packaging .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Production/shape> a sh:NodeShape ;
+    sh:name "Cigar Production" ;
+    sh:targetClass cigars:Cigar%20Production .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Rights%20of%20America/shape> a sh:NodeShape ;
+    sh:name "Cigar Rights of America" ;
+    sh:targetClass cigars:Cigar%20Rights%20of%20America .
+
+<http://localhost:8000/ontology/cigars/Cigar%20Rolling/shape> a sh:NodeShape ;
+    sh:name "Cigar Rolling" ;
+    sh:targetClass cigars:Cigar%20Rolling .
+
+<http://localhost:8000/ontology/cigars/Cigarillo/shape> a sh:NodeShape ;
+    sh:name "Cigarillo" ;
+    sh:targetClass cigars:Cigarillo .
+
+<http://localhost:8000/ontology/cigars/Claro/shape> a sh:NodeShape ;
+    sh:name "Claro" ;
+    sh:targetClass cigars:Claro .
+
+<http://localhost:8000/ontology/cigars/Clear%20Havana/shape> a sh:NodeShape ;
+    sh:name "Clear Havana" ;
+    sh:targetClass cigars:Clear%20Havana .
+
+<http://localhost:8000/ontology/cigars/Closeout/shape> a sh:NodeShape ;
+    sh:name "Closeout" ;
+    sh:targetClass cigars:Closeout .
+
+<http://localhost:8000/ontology/cigars/Coffin/shape> a sh:NodeShape ;
+    sh:name "Coffin" ;
+    sh:targetClass cigars:Coffin .
+
+<http://localhost:8000/ontology/cigars/Cold%20Draw/shape> a sh:NodeShape ;
+    sh:name "Cold Draw" ;
+    sh:targetClass cigars:Cold%20Draw .
+
+<http://localhost:8000/ontology/cigars/Collars/shape> a sh:NodeShape ;
+    sh:name "Collars" ;
+    sh:targetClass cigars:Collars .
+
+<http://localhost:8000/ontology/cigars/Color%20Sorting/shape> a sh:NodeShape ;
+    sh:name "Color Sorting" ;
+    sh:targetClass cigars:Color%20Sorting .
+
+<http://localhost:8000/ontology/cigars/Colorado%20Maduro/shape> a sh:NodeShape ;
+    sh:name "Colorado Maduro" ;
+    sh:targetClass cigars:Colorado%20Maduro .
+
+<http://localhost:8000/ontology/cigars/Colorado/shape> a sh:NodeShape ;
+    sh:name "Colorado" ;
+    sh:targetClass cigars:Colorado .
+
+<http://localhost:8000/ontology/cigars/Combustion/shape> a sh:NodeShape ;
+    sh:name "Combustion" ;
+    sh:targetClass cigars:Combustion .
+
+<http://localhost:8000/ontology/cigars/Complexity/shape> a sh:NodeShape ;
+    sh:name "Complexity" ;
+    sh:targetClass cigars:Complexity .
+
+<http://localhost:8000/ontology/cigars/Condega/shape> a sh:NodeShape ;
+    sh:name "Condega" ;
+    sh:targetClass cigars:Condega .
+
+<http://localhost:8000/ontology/cigars/Connecticut%20Broadleaf/shape> a sh:NodeShape ;
+    sh:name "Connecticut Broadleaf" ;
+    sh:targetClass cigars:Connecticut%20Broadleaf .
+
+<http://localhost:8000/ontology/cigars/Connecticut%20Habano/shape> a sh:NodeShape ;
+    sh:name "Connecticut Habano" ;
+    sh:targetClass cigars:Connecticut%20Habano .
+
+<http://localhost:8000/ontology/cigars/Connecticut%20River%20Valley/shape> a sh:NodeShape ;
+    sh:name "Connecticut River Valley" ;
+    sh:targetClass cigars:Connecticut%20River%20Valley .
+
+<http://localhost:8000/ontology/cigars/Connecticut%20Shade/shape> a sh:NodeShape ;
+    sh:name "Connecticut Shade" ;
+    sh:targetClass cigars:Connecticut%20Shade .
+
+<http://localhost:8000/ontology/cigars/Corojo/shape> a sh:NodeShape ;
+    sh:name "Corojo" ;
+    sh:targetClass cigars:Corojo .
+
+<http://localhost:8000/ontology/cigars/Corona%20Gorda/shape> a sh:NodeShape ;
+    sh:name "Corona Gorda" ;
+    sh:targetClass cigars:Corona%20Gorda .
+
+<http://localhost:8000/ontology/cigars/Corona/shape> a sh:NodeShape ;
+    sh:name "Corona" ;
+    sh:targetClass cigars:Corona .
+
+<http://localhost:8000/ontology/cigars/Costero/shape> a sh:NodeShape ;
+    sh:name "Costero" ;
+    sh:targetClass cigars:Costero .
+
+<http://localhost:8000/ontology/cigars/Cuban%20Seed/shape> a sh:NodeShape ;
+    sh:name "Cuban Seed" ;
+    sh:targetClass cigars:Cuban%20Seed .
+
+<http://localhost:8000/ontology/cigars/Cubatabaco/shape> a sh:NodeShape ;
+    sh:name "Cubatabaco" ;
+    sh:targetClass cigars:Cubatabaco .
+
+<http://localhost:8000/ontology/cigars/Cubierta/shape> a sh:NodeShape ;
+    sh:name "Cubierta" ;
+    sh:targetClass cigars:Cubierta .
+
+<http://localhost:8000/ontology/cigars/Cuje/shape> a sh:NodeShape ;
+    sh:name "Cuje" ;
+    sh:targetClass cigars:Cuje .
+
+<http://localhost:8000/ontology/cigars/Culebra/shape> a sh:NodeShape ;
+    sh:name "Culebra" ;
+    sh:targetClass cigars:Culebra .
+
+<http://localhost:8000/ontology/cigars/Curing%20Barn/shape> a sh:NodeShape ;
+    sh:name "Curing Barn" ;
+    sh:targetClass cigars:Curing%20Barn .
+
+<http://localhost:8000/ontology/cigars/Curing%20and%20Fermentation/shape> a sh:NodeShape ;
+    sh:name "Curing and Fermentation" ;
+    sh:targetClass cigars:Curing%20and%20Fermentation .
+
+<http://localhost:8000/ontology/cigars/Curing/shape> a sh:NodeShape ;
+    sh:name "Curing" ;
+    sh:targetClass cigars:Curing .
+
+<http://localhost:8000/ontology/cigars/Cutter/shape> a sh:NodeShape ;
+    sh:name "Cutter" ;
+    sh:targetClass cigars:Cutter .
+
+<http://localhost:8000/ontology/cigars/Destemming/shape> a sh:NodeShape ;
+    sh:name "Destemming" ;
+    sh:targetClass cigars:Destemming .
+
+<http://localhost:8000/ontology/cigars/Diadema/shape> a sh:NodeShape ;
+    sh:name "Diadema" ;
+    sh:targetClass cigars:Diadema .
+
+<http://localhost:8000/ontology/cigars/Dipping/shape> a sh:NodeShape ;
+    sh:name "Dipping" ;
+    sh:targetClass cigars:Dipping .
+
+<http://localhost:8000/ontology/cigars/Doghouse/shape> a sh:NodeShape ;
+    sh:name "Doghouse" ;
+    sh:targetClass cigars:Doghouse .
+
+<http://localhost:8000/ontology/cigars/Dominican%20Republic/shape> a sh:NodeShape ;
+    sh:name "Dominican Republic" ;
+    sh:targetClass cigars:Dominican%20Republic .
+
+<http://localhost:8000/ontology/cigars/Double%20Corona/shape> a sh:NodeShape ;
+    sh:name "Double Corona" ;
+    sh:targetClass cigars:Double%20Corona .
+
+<http://localhost:8000/ontology/cigars/Draw%20Test%20Machine/shape> a sh:NodeShape ;
+    sh:name "Draw Test Machine" ;
+    sh:targetClass cigars:Draw%20Test%20Machine .
+
+<http://localhost:8000/ontology/cigars/Draw/shape> a sh:NodeShape ;
+    sh:name "Draw" ;
+    sh:targetClass cigars:Draw .
+
+<http://localhost:8000/ontology/cigars/Ecuador/shape> a sh:NodeShape ;
+    sh:name "Ecuador" ;
+    sh:targetClass cigars:Ecuador .
+
+<http://localhost:8000/ontology/cigars/Eight%20Nine%20Eight/shape> a sh:NodeShape ;
+    sh:name "Eight Nine Eight" ;
+    sh:targetClass cigars:Eight%20Nine%20Eight .
+
+<http://localhost:8000/ontology/cigars/Empilonando/shape> a sh:NodeShape ;
+    sh:name "Empilonando" ;
+    sh:targetClass cigars:Empilonando .
+
+<http://localhost:8000/ontology/cigars/Encallado/shape> a sh:NodeShape ;
+    sh:name "Encallado" ;
+    sh:targetClass cigars:Encallado .
+
+<http://localhost:8000/ontology/cigars/Ensarte/shape> a sh:NodeShape ;
+    sh:name "Ensarte" ;
+    sh:targetClass cigars:Ensarte .
+
+<http://localhost:8000/ontology/cigars/Entubar/shape> a sh:NodeShape ;
+    sh:name "Entubar" ;
+    sh:targetClass cigars:Entubar .
+
+<http://localhost:8000/ontology/cigars/Escaparates/shape> a sh:NodeShape ;
+    sh:name "Escaparates" ;
+    sh:targetClass cigars:Escaparates .
+
+<http://localhost:8000/ontology/cigars/Esteli/shape> a sh:NodeShape ;
+    sh:name "Esteli" ;
+    sh:targetClass cigars:Esteli .
+
+<http://localhost:8000/ontology/cigars/Federal%20Excise%20Tax/shape> a sh:NodeShape ;
+    sh:name "Federal Excise Tax" ;
+    sh:targetClass cigars:Federal%20Excise%20Tax .
+
+<http://localhost:8000/ontology/cigars/Fermentation/shape> a sh:NodeShape ;
+    sh:name "Fermentation" ;
+    sh:targetClass cigars:Fermentation .
+
+<http://localhost:8000/ontology/cigars/Figurado/shape> a sh:NodeShape ;
+    sh:name "Figurado" ;
+    sh:targetClass cigars:Figurado .
+
+<http://localhost:8000/ontology/cigars/Filler/shape> a sh:NodeShape ;
+    sh:name "Filler" ;
+    sh:targetClass cigars:Filler .
+
+<http://localhost:8000/ontology/cigars/Finish/shape> a sh:NodeShape ;
+    sh:name "Finish" ;
+    sh:targetClass cigars:Finish .
+
+<http://localhost:8000/ontology/cigars/Firemen/shape> a sh:NodeShape ;
+    sh:name "Firemen" ;
+    sh:targetClass cigars:Firemen .
+
+<http://localhost:8000/ontology/cigars/Firm/shape> a sh:NodeShape ;
+    sh:name "Firm" ;
+    sh:targetClass cigars:Firm .
+
+<http://localhost:8000/ontology/cigars/Flag%20Tip/shape> a sh:NodeShape ;
+    sh:name "Flag Tip" ;
+    sh:targetClass cigars:Flag%20Tip .
+
+<http://localhost:8000/ontology/cigars/Foil/shape> a sh:NodeShape ;
+    sh:name "Foil" ;
+    sh:targetClass cigars:Foil .
+
+<http://localhost:8000/ontology/cigars/Foot/shape> a sh:NodeShape ;
+    sh:name "Foot" ;
+    sh:targetClass cigars:Foot .
+
+<http://localhost:8000/ontology/cigars/Glass%20Jar/shape> a sh:NodeShape ;
+    sh:name "Glass Jar" ;
+    sh:targetClass cigars:Glass%20Jar .
+
+<http://localhost:8000/ontology/cigars/Glass%20Top%20Cohibas/shape> a sh:NodeShape ;
+    sh:name "Glass Top Cohibas" ;
+    sh:targetClass cigars:Glass%20Top%20Cohibas .
+
+<http://localhost:8000/ontology/cigars/Gorda/shape> a sh:NodeShape ;
+    sh:name "Gorda" ;
+    sh:targetClass cigars:Gorda .
+
+<http://localhost:8000/ontology/cigars/Gordito/shape> a sh:NodeShape ;
+    sh:name "Gordito" ;
+    sh:targetClass cigars:Gordito .
+
+<http://localhost:8000/ontology/cigars/Gran%20Corona/shape> a sh:NodeShape ;
+    sh:name "Gran Corona" ;
+    sh:targetClass cigars:Gran%20Corona .
+
+<http://localhost:8000/ontology/cigars/Guajiro/shape> a sh:NodeShape ;
+    sh:name "Guajiro" ;
+    sh:targetClass cigars:Guajiro .
+
+<http://localhost:8000/ontology/cigars/Guayabera/shape> a sh:NodeShape ;
+    sh:name "Guayabera" ;
+    sh:targetClass cigars:Guayabera .
+
+<http://localhost:8000/ontology/cigars/Guillotine/shape> a sh:NodeShape ;
+    sh:name "Guillotine" ;
+    sh:targetClass cigars:Guillotine .
+
+<http://localhost:8000/ontology/cigars/Gum/shape> a sh:NodeShape ;
+    sh:name "Gum" ;
+    sh:targetClass cigars:Gum .
+
+<http://localhost:8000/ontology/cigars/Habano/shape> a sh:NodeShape ;
+    sh:name "Habano" ;
+    sh:targetClass cigars:Habano .
+
+<http://localhost:8000/ontology/cigars/Habanos%20SA/shape> a sh:NodeShape ;
+    sh:name "Habanos SA" ;
+    sh:targetClass cigars:Habanos%20SA .
+
+<http://localhost:8000/ontology/cigars/Half%20Wheel/shape> a sh:NodeShape ;
+    sh:name "Half Wheel" ;
+    sh:targetClass cigars:Half%20Wheel .
+
+<http://localhost:8000/ontology/cigars/Hand%20Rolled/shape> a sh:NodeShape ;
+    sh:name "Hand Rolled" ;
+    sh:targetClass cigars:Hand%20Rolled .
+
+<http://localhost:8000/ontology/cigars/Hand/shape> a sh:NodeShape ;
+    sh:name "Hand" ;
+    sh:targetClass cigars:Hand .
+
+<http://localhost:8000/ontology/cigars/Havana/shape> a sh:NodeShape ;
+    sh:name "Havana" ;
+    sh:targetClass cigars:Havana .
+
+<http://localhost:8000/ontology/cigars/Head/shape> a sh:NodeShape ;
+    sh:name "Head" ;
+    sh:targetClass cigars:Head .
+
+<http://localhost:8000/ontology/cigars/Homogenized%20Tobacco%20Leaf/shape> a sh:NodeShape ;
+    sh:name "Homogenized Tobacco Leaf" ;
+    sh:targetClass cigars:Homogenized%20Tobacco%20Leaf .
+
+<http://localhost:8000/ontology/cigars/Honduras/shape> a sh:NodeShape ;
+    sh:name "Honduras" ;
+    sh:targetClass cigars:Honduras .
+
+<http://localhost:8000/ontology/cigars/Hot/shape> a sh:NodeShape ;
+    sh:name "Hot" ;
+    sh:targetClass cigars:Hot .
+
+<http://localhost:8000/ontology/cigars/Humidification%20Element/shape> a sh:NodeShape ;
+    sh:name "Humidification Element" ;
+    sh:targetClass cigars:Humidification%20Element .
+
+<http://localhost:8000/ontology/cigars/Humidor/shape> a sh:NodeShape ;
+    sh:name "Humidor" ;
+    sh:property <http://localhost:8000/ontology/cigars/Humidor/shape/http%3A%2F%2Flocalhost%3A8000%2Fontology%2Fcigars%2FHumidor.capacity> ;
+    sh:targetClass cigars:Humidor .
+
+<http://localhost:8000/ontology/cigars/Hybrid/shape> a sh:NodeShape ;
+    sh:name "Hybrid" ;
+    sh:targetClass cigars:Hybrid .
+
+<http://localhost:8000/ontology/cigars/Hygrometer/shape> a sh:NodeShape ;
+    sh:name "Hygrometer" ;
+    sh:targetClass cigars:Hygrometer .
+
+<http://localhost:8000/ontology/cigars/IPCPR/shape> a sh:NodeShape ;
+    sh:name "IPCPR" ;
+    sh:targetClass cigars:IPCPR .
+
+<http://localhost:8000/ontology/cigars/ISOM/shape> a sh:NodeShape ;
+    sh:name "ISOM" ;
+    sh:targetClass cigars:ISOM .
+
+<http://localhost:8000/ontology/cigars/Inhale/shape> a sh:NodeShape ;
+    sh:name "Inhale" ;
+    sh:targetClass cigars:Inhale .
+
+<http://localhost:8000/ontology/cigars/Jalapa/shape> a sh:NodeShape ;
+    sh:name "Jalapa" ;
+    sh:targetClass cigars:Jalapa .
+
+<http://localhost:8000/ontology/cigars/Jamastran/shape> a sh:NodeShape ;
+    sh:name "Jamastran" ;
+    sh:targetClass cigars:Jamastran .
+
+<http://localhost:8000/ontology/cigars/La%20Casa%20Del%20Habano/shape> a sh:NodeShape ;
+    sh:name "La Casa Del Habano" ;
+    sh:targetClass cigars:La%20Casa%20Del%20Habano .
+
+<http://localhost:8000/ontology/cigars/Lancero/shape> a sh:NodeShape ;
+    sh:name "Lancero" ;
+    sh:targetClass cigars:Lancero .
+
+<http://localhost:8000/ontology/cigars/Larguero/shape> a sh:NodeShape ;
+    sh:name "Larguero" ;
+    sh:targetClass cigars:Larguero .
+
+<http://localhost:8000/ontology/cigars/Lector/shape> a sh:NodeShape ;
+    sh:name "Lector" ;
+    sh:targetClass cigars:Lector .
+
+<http://localhost:8000/ontology/cigars/Libre%20de%20Pie/shape> a sh:NodeShape ;
+    sh:name "Libre de Pie" ;
+    sh:targetClass cigars:Libre%20de%20Pie .
+
+<http://localhost:8000/ontology/cigars/Ligero/shape> a sh:NodeShape ;
+    sh:name "Ligero" ;
+    sh:targetClass cigars:Ligero .
+
+<http://localhost:8000/ontology/cigars/Lighter%20Fluid/shape> a sh:NodeShape ;
+    sh:name "Lighter Fluid" ;
+    sh:targetClass cigars:Lighter%20Fluid .
+
+<http://localhost:8000/ontology/cigars/Lighter/shape> a sh:NodeShape ;
+    sh:name "Lighter" ;
+    sh:targetClass cigars:Lighter .
+
+<http://localhost:8000/ontology/cigars/Long%20Filler/shape> a sh:NodeShape ;
+    sh:name "Long Filler" ;
+    sh:targetClass cigars:Long%20Filler .
+
+<http://localhost:8000/ontology/cigars/Lonsdale/shape> a sh:NodeShape ;
+    sh:name "Lonsdale" ;
+    sh:targetClass cigars:Lonsdale .
+
+<http://localhost:8000/ontology/cigars/Loose/shape> a sh:NodeShape ;
+    sh:name "Loose" ;
+    sh:targetClass cigars:Loose .
+
+<http://localhost:8000/ontology/cigars/Machine%20Made/shape> a sh:NodeShape ;
+    sh:name "Machine Made" ;
+    sh:targetClass cigars:Machine%20Made .
+
+<http://localhost:8000/ontology/cigars/Maduro/shape> a sh:NodeShape ;
+    sh:name "Maduro" ;
+    sh:targetClass cigars:Maduro .
+
+<http://localhost:8000/ontology/cigars/Mata%20Fina/shape> a sh:NodeShape ;
+    sh:name "Mata Fina" ;
+    sh:targetClass cigars:Mata%20Fina .
+
+<http://localhost:8000/ontology/cigars/Medio%20Tiempo/shape> a sh:NodeShape ;
+    sh:name "Medio Tiempo" ;
+    sh:targetClass cigars:Medio%20Tiempo .
+
+<http://localhost:8000/ontology/cigars/Microfermentation/shape> a sh:NodeShape ;
+    sh:name "Microfermentation" ;
+    sh:targetClass cigars:Microfermentation .
+
+<http://localhost:8000/ontology/cigars/Mixed%20Filler/shape> a sh:NodeShape ;
+    sh:name "Mixed Filler" ;
+    sh:targetClass cigars:Mixed%20Filler .
+
+<http://localhost:8000/ontology/cigars/Mold/shape> a sh:NodeShape ;
+    sh:name "Mold" ;
+    sh:targetClass cigars:Mold .
+
+<http://localhost:8000/ontology/cigars/Mulling/shape> a sh:NodeShape ;
+    sh:name "Mulling" ;
+    sh:targetClass cigars:Mulling .
+
+<http://localhost:8000/ontology/cigars/Multi%20Origin%20Blend/shape> a sh:NodeShape ;
+    sh:name "Multi Origin Blend" ;
+    sh:targetClass cigars:Multi%20Origin%20Blend .
+
+<http://localhost:8000/ontology/cigars/Natural/shape> a sh:NodeShape ;
+    sh:name "Natural" ;
+    sh:targetClass cigars:Natural .
+
+<http://localhost:8000/ontology/cigars/Nicaragua/shape> a sh:NodeShape ;
+    sh:name "Nicaragua" ;
+    sh:targetClass cigars:Nicaragua .
+
+<http://localhost:8000/ontology/cigars/Nicotiana%20Tabacum/shape> a sh:NodeShape ;
+    sh:name "Nicotiana Tabacum" ;
+    sh:targetClass cigars:Nicotiana%20Tabacum .
+
+<http://localhost:8000/ontology/cigars/Nicotine%20Strength/shape> a sh:NodeShape ;
+    sh:name "Nicotine Strength" ;
+    sh:targetClass cigars:Nicotine%20Strength .
+
+<http://localhost:8000/ontology/cigars/Nosing/shape> a sh:NodeShape ;
+    sh:name "Nosing" ;
+    sh:targetClass cigars:Nosing .
+
+<http://localhost:8000/ontology/cigars/Oil/shape> a sh:NodeShape ;
+    sh:name "Oil" ;
+    sh:targetClass cigars:Oil .
+
+<http://localhost:8000/ontology/cigars/Olor/shape> a sh:NodeShape ;
+    sh:name "Olor" ;
+    sh:targetClass cigars:Olor .
+
+<http://localhost:8000/ontology/cigars/Ometepe/shape> a sh:NodeShape ;
+    sh:name "Ometepe" ;
+    sh:targetClass cigars:Ometepe .
+
+<http://localhost:8000/ontology/cigars/Oscuro/shape> a sh:NodeShape ;
+    sh:name "Oscuro" ;
+    sh:targetClass cigars:Oscuro .
+
+<http://localhost:8000/ontology/cigars/Panetela/shape> a sh:NodeShape ;
+    sh:name "Panetela" ;
+    sh:targetClass cigars:Panetela .
+
+<http://localhost:8000/ontology/cigars/Papeleta/shape> a sh:NodeShape ;
+    sh:name "Papeleta" ;
+    sh:targetClass cigars:Papeleta .
+
+<http://localhost:8000/ontology/cigars/Parejo/shape> a sh:NodeShape ;
+    sh:name "Parejo" ;
+    sh:targetClass cigars:Parejo .
+
+<http://localhost:8000/ontology/cigars/Partido/shape> a sh:NodeShape ;
+    sh:name "Partido" ;
+    sh:targetClass cigars:Partido .
+
+<http://localhost:8000/ontology/cigars/Passive%20Humidification%20System/shape> a sh:NodeShape ;
+    sh:name "Passive Humidification System" ;
+    sh:targetClass cigars:Passive%20Humidification%20System .
+
+<http://localhost:8000/ontology/cigars/Pelletized/shape> a sh:NodeShape ;
+    sh:name "Pelletized" ;
+    sh:targetClass cigars:Pelletized .
+
+<http://localhost:8000/ontology/cigars/Pelo%20D%20Oro/shape> a sh:NodeShape ;
+    sh:name "Pelo D Oro" ;
+    sh:targetClass cigars:Pelo%20D%20Oro .
+
+<http://localhost:8000/ontology/cigars/Perfecto/shape> a sh:NodeShape ;
+    sh:name "Perfecto" ;
+    sh:targetClass cigars:Perfecto .
+
+<http://localhost:8000/ontology/cigars/Petit%20Corona/shape> a sh:NodeShape ;
+    sh:name "Petit Corona" ;
+    sh:targetClass cigars:Petit%20Corona .
+
+<http://localhost:8000/ontology/cigars/Piercer/shape> a sh:NodeShape ;
+    sh:name "Piercer" ;
+    sh:targetClass cigars:Piercer .
+
+<http://localhost:8000/ontology/cigars/Pilon/shape> a sh:NodeShape ;
+    sh:name "Pilon" ;
+    sh:targetClass cigars:Pilon .
+
+<http://localhost:8000/ontology/cigars/Piloto%20Cubano/shape> a sh:NodeShape ;
+    sh:name "Piloto Cubano" ;
+    sh:targetClass cigars:Piloto%20Cubano .
+
+<http://localhost:8000/ontology/cigars/Pinar%20del%20Rio/shape> a sh:NodeShape ;
+    sh:name "Pinar del Rio" ;
+    sh:targetClass cigars:Pinar%20del%20Rio .
+
+<http://localhost:8000/ontology/cigars/Plugged/shape> a sh:NodeShape ;
+    sh:name "Plugged" ;
+    sh:targetClass cigars:Plugged .
+
+<http://localhost:8000/ontology/cigars/Pre%20Castro%20Cigar/shape> a sh:NodeShape ;
+    sh:name "Pre Castro Cigar" ;
+    sh:targetClass cigars:Pre%20Castro%20Cigar .
+
+<http://localhost:8000/ontology/cigars/Pre%20Embargo%20Cigar/shape> a sh:NodeShape ;
+    sh:name "Pre Embargo Cigar" ;
+    sh:targetClass cigars:Pre%20Embargo%20Cigar .
+
+<http://localhost:8000/ontology/cigars/Press/shape> a sh:NodeShape ;
+    sh:name "Press" ;
+    sh:targetClass cigars:Press .
+
+<http://localhost:8000/ontology/cigars/Primings/shape> a sh:NodeShape ;
+    sh:name "Primings" ;
+    sh:targetClass cigars:Primings .
+
+<http://localhost:8000/ontology/cigars/Propylene%20Glycol/shape> a sh:NodeShape ;
+    sh:name "Propylene Glycol" ;
+    sh:targetClass cigars:Propylene%20Glycol .
+
+<http://localhost:8000/ontology/cigars/Punch%20Cutter/shape> a sh:NodeShape ;
+    sh:name "Punch Cutter" ;
+    sh:targetClass cigars:Punch%20Cutter .
+
+<http://localhost:8000/ontology/cigars/Purging/shape> a sh:NodeShape ;
+    sh:name "Purging" ;
+    sh:targetClass cigars:Purging .
+
+<http://localhost:8000/ontology/cigars/Puro/shape> a sh:NodeShape ;
+    sh:name "Puro" ;
+    sh:targetClass cigars:Puro .
+
+<http://localhost:8000/ontology/cigars/Pyramid/shape> a sh:NodeShape ;
+    sh:name "Pyramid" ;
+    sh:targetClass cigars:Pyramid .
+
+<http://localhost:8000/ontology/cigars/Quisqueya/shape> a sh:NodeShape ;
+    sh:name "Quisqueya" ;
+    sh:targetClass cigars:Quisqueya .
+
+<http://localhost:8000/ontology/cigars/Regional%20Edition/shape> a sh:NodeShape ;
+    sh:name "Regional Edition" ;
+    sh:targetClass cigars:Regional%20Edition .
+
+<http://localhost:8000/ontology/cigars/Ring%20Gauge/shape> a sh:NodeShape ;
+    sh:name "Ring Gauge" ;
+    sh:targetClass cigars:Ring%20Gauge .
+
+<http://localhost:8000/ontology/cigars/Robusto/shape> a sh:NodeShape ;
+    sh:name "Robusto" ;
+    sh:targetClass cigars:Robusto .
+
+<http://localhost:8000/ontology/cigars/Roller/shape> a sh:NodeShape ;
+    sh:name "Roller" ;
+    sh:targetClass cigars:Roller .
+
+<http://localhost:8000/ontology/cigars/Rolling%20Gallery/shape> a sh:NodeShape ;
+    sh:name "Rolling Gallery" ;
+    sh:targetClass cigars:Rolling%20Gallery .
+
+<http://localhost:8000/ontology/cigars/Rolling%20Method/shape> a sh:NodeShape ;
+    sh:name "Rolling Method" ;
+    sh:targetClass cigars:Rolling%20Method .
+
+<http://localhost:8000/ontology/cigars/Rolling%20Table/shape> a sh:NodeShape ;
+    sh:name "Rolling Table" ;
+    sh:targetClass cigars:Rolling%20Table .
+
+<http://localhost:8000/ontology/cigars/Rosado/shape> a sh:NodeShape ;
+    sh:name "Rosado" ;
+    sh:targetClass cigars:Rosado .
+
+<http://localhost:8000/ontology/cigars/SCHIP/shape> a sh:NodeShape ;
+    sh:name "SCHIP" ;
+    sh:targetClass cigars:SCHIP .
+
+<http://localhost:8000/ontology/cigars/Salomon/shape> a sh:NodeShape ;
+    sh:name "Salomon" ;
+    sh:targetClass cigars:Salomon .
+
+<http://localhost:8000/ontology/cigars/San%20Andres/shape> a sh:NodeShape ;
+    sh:name "San Andres" ;
+    sh:targetClass cigars:San%20Andres .
+
+<http://localhost:8000/ontology/cigars/San%20Vincente/shape> a sh:NodeShape ;
+    sh:name "San Vincente" ;
+    sh:targetClass cigars:San%20Vincente .
+
+<http://localhost:8000/ontology/cigars/Santiago/shape> a sh:NodeShape ;
+    sh:name "Santiago" ;
+    sh:targetClass cigars:Santiago .
+
+<http://localhost:8000/ontology/cigars/Sarta/shape> a sh:NodeShape ;
+    sh:name "Sarta" ;
+    sh:targetClass cigars:Sarta .
+
+<http://localhost:8000/ontology/cigars/Scissors/shape> a sh:NodeShape ;
+    sh:name "Scissors" ;
+    sh:targetClass cigars:Scissors .
+
+<http://localhost:8000/ontology/cigars/Seco/shape> a sh:NodeShape ;
+    sh:name "Seco" ;
+    sh:targetClass cigars:Seco .
+
+<http://localhost:8000/ontology/cigars/Seedbed/shape> a sh:NodeShape ;
+    sh:name "Seedbed" ;
+    sh:targetClass cigars:Seedbed .
+
+<http://localhost:8000/ontology/cigars/Seedling/shape> a sh:NodeShape ;
+    sh:name "Seedling" ;
+    sh:targetClass cigars:Seedling .
+
+<http://localhost:8000/ontology/cigars/Semi%20Boite%20Nature/shape> a sh:NodeShape ;
+    sh:name "Semi Boite Nature" ;
+    sh:targetClass cigars:Semi%20Boite%20Nature .
+
+<http://localhost:8000/ontology/cigars/Shade%20Grown/shape> a sh:NodeShape ;
+    sh:name "Shade Grown" ;
+    sh:targetClass cigars:Shade%20Grown .
+
+<http://localhost:8000/ontology/cigars/Short%20Filler/shape> a sh:NodeShape ;
+    sh:name "Short Filler" ;
+    sh:targetClass cigars:Short%20Filler .
+
+<http://localhost:8000/ontology/cigars/Shoulder/shape> a sh:NodeShape ;
+    sh:name "Shoulder" ;
+    sh:targetClass cigars:Shoulder .
+
+<http://localhost:8000/ontology/cigars/Single/shape> a sh:NodeShape ;
+    sh:name "Single" ;
+    sh:targetClass cigars:Single .
+
+<http://localhost:8000/ontology/cigars/Slide%20Lid%20Box/shape> a sh:NodeShape ;
+    sh:name "Slide Lid Box" ;
+    sh:targetClass cigars:Slide%20Lid%20Box .
+
+<http://localhost:8000/ontology/cigars/Small%20Batch/shape> a sh:NodeShape ;
+    sh:name "Small Batch" ;
+    sh:targetClass cigars:Small%20Batch .
+
+<http://localhost:8000/ontology/cigars/Smoke%20Output/shape> a sh:NodeShape ;
+    sh:name "Smoke Output" ;
+    sh:targetClass cigars:Smoke%20Output .
+
+<http://localhost:8000/ontology/cigars/Smoking%20Temperature/shape> a sh:NodeShape ;
+    sh:name "Smoking Temperature" ;
+    sh:targetClass cigars:Smoking%20Temperature .
+
+<http://localhost:8000/ontology/cigars/Smoking%20Time/shape> a sh:NodeShape ;
+    sh:name "Smoking Time" ;
+    sh:property <http://localhost:8000/ontology/cigars/Smoking%20Time/shape/http%3A%2F%2Flocalhost%3A8000%2Fontology%2Fcigars%2FSmoking%2520Time.minutes> ;
+    sh:targetClass cigars:Smoking%20Time .
+
+<http://localhost:8000/ontology/cigars/Spanish%20Cedar/shape> a sh:NodeShape ;
+    sh:name "Spanish Cedar" ;
+    sh:targetClass cigars:Spanish%20Cedar .
+
+<http://localhost:8000/ontology/cigars/Stalk%20Cut/shape> a sh:NodeShape ;
+    sh:name "Stalk Cut" ;
+    sh:targetClass cigars:Stalk%20Cut .
+
+<http://localhost:8000/ontology/cigars/Stogie/shape> a sh:NodeShape ;
+    sh:name "Stogie" ;
+    sh:targetClass cigars:Stogie .
+
+<http://localhost:8000/ontology/cigars/Storage%20and%20Smoking/shape> a sh:NodeShape ;
+    sh:name "Storage and Smoking" ;
+    sh:targetClass cigars:Storage%20and%20Smoking .
+
+<http://localhost:8000/ontology/cigars/Sucker/shape> a sh:NodeShape ;
+    sh:name "Sucker" ;
+    sh:targetClass cigars:Sucker .
+
+<http://localhost:8000/ontology/cigars/Suggested%20Retail%20Price/shape> a sh:NodeShape ;
+    sh:name "Suggested Retail Price" ;
+    sh:targetClass cigars:Suggested%20Retail%20Price .
+
+<http://localhost:8000/ontology/cigars/Sun%20Grown/shape> a sh:NodeShape ;
+    sh:name "Sun Grown" ;
+    sh:targetClass cigars:Sun%20Grown .
+
+<http://localhost:8000/ontology/cigars/Sweet%20Spot/shape> a sh:NodeShape ;
+    sh:name "Sweet Spot" ;
+    sh:targetClass cigars:Sweet%20Spot .
+
+<http://localhost:8000/ontology/cigars/Tabaquero/shape> a sh:NodeShape ;
+    sh:name "Tabaquero" ;
+    sh:targetClass cigars:Tabaquero .
+
+<http://localhost:8000/ontology/cigars/Tapaclavo/shape> a sh:NodeShape ;
+    sh:name "Tapaclavo" ;
+    sh:targetClass cigars:Tapaclavo .
+
+<http://localhost:8000/ontology/cigars/Tercios/shape> a sh:NodeShape ;
+    sh:name "Tercios" ;
+    sh:targetClass cigars:Tercios .
+
+<http://localhost:8000/ontology/cigars/Thirteen%20Toppers/shape> a sh:NodeShape ;
+    sh:name "Thirteen Toppers" ;
+    sh:targetClass cigars:Thirteen%20Toppers .
+
+<http://localhost:8000/ontology/cigars/Toasting/shape> a sh:NodeShape ;
+    sh:name "Toasting" ;
+    sh:targetClass cigars:Toasting .
+
+<http://localhost:8000/ontology/cigars/Tobacco%20Beetle/shape> a sh:NodeShape ;
+    sh:name "Tobacco Beetle" ;
+    sh:targetClass cigars:Tobacco%20Beetle .
+
+<http://localhost:8000/ontology/cigars/Tobacco%20Cultivation/shape> a sh:NodeShape ;
+    sh:name "Tobacco Cultivation" ;
+    sh:targetClass cigars:Tobacco%20Cultivation .
+
+<http://localhost:8000/ontology/cigars/Tobacco%20Seed/shape> a sh:NodeShape ;
+    sh:name "Tobacco Seed" ;
+    sh:targetClass cigars:Tobacco%20Seed .
+
+<http://localhost:8000/ontology/cigars/Tobacco%20Sorting/shape> a sh:NodeShape ;
+    sh:name "Tobacco Sorting" ;
+    sh:targetClass cigars:Tobacco%20Sorting .
+
+<http://localhost:8000/ontology/cigars/Tobaccos%20and%20Origins/shape> a sh:NodeShape ;
+    sh:name "Tobaccos and Origins" ;
+    sh:targetClass cigars:Tobaccos%20and%20Origins .
+
+<http://localhost:8000/ontology/cigars/Tooth/shape> a sh:NodeShape ;
+    sh:name "Tooth" ;
+    sh:targetClass cigars:Tooth .
+
+<http://localhost:8000/ontology/cigars/Top%2025/shape> a sh:NodeShape ;
+    sh:name "Top 25" ;
+    sh:targetClass cigars:Top%2025 .
+
+<http://localhost:8000/ontology/cigars/Topping/shape> a sh:NodeShape ;
+    sh:name "Topping" ;
+    sh:targetClass cigars:Topping .
+
+<http://localhost:8000/ontology/cigars/Torch%20Lighter/shape> a sh:NodeShape ;
+    sh:name "Torch Lighter" ;
+    sh:targetClass cigars:Torch%20Lighter .
+
+<http://localhost:8000/ontology/cigars/Toro/shape> a sh:NodeShape ;
+    sh:name "Toro" ;
+    sh:targetClass cigars:Toro .
+
+<http://localhost:8000/ontology/cigars/Torpedo/shape> a sh:NodeShape ;
+    sh:name "Torpedo" ;
+    sh:targetClass cigars:Torpedo .
+
+<http://localhost:8000/ontology/cigars/Transplanter/shape> a sh:NodeShape ;
+    sh:name "Transplanter" ;
+    sh:targetClass cigars:Transplanter .
+
+<http://localhost:8000/ontology/cigars/Trim/shape> a sh:NodeShape ;
+    sh:name "Trim" ;
+    sh:targetClass cigars:Trim .
+
+<http://localhost:8000/ontology/cigars/Triple%20Cap/shape> a sh:NodeShape ;
+    sh:name "Triple Cap" ;
+    sh:targetClass cigars:Triple%20Cap .
+
+<http://localhost:8000/ontology/cigars/Trumpet/shape> a sh:NodeShape ;
+    sh:name "Trumpet" ;
+    sh:targetClass cigars:Trumpet .
+
+<http://localhost:8000/ontology/cigars/Trunk%20Pressed/shape> a sh:NodeShape ;
+    sh:name "Trunk Pressed" ;
+    sh:targetClass cigars:Trunk%20Pressed .
+
+<http://localhost:8000/ontology/cigars/Tube/shape> a sh:NodeShape ;
+    sh:name "Tube" ;
+    sh:targetClass cigars:Tube .
+
+<http://localhost:8000/ontology/cigars/Tunneling/shape> a sh:NodeShape ;
+    sh:name "Tunneling" ;
+    sh:targetClass cigars:Tunneling .
+
+<http://localhost:8000/ontology/cigars/V%20Cutter/shape> a sh:NodeShape ;
+    sh:name "V Cutter" ;
+    sh:targetClass cigars:V%20Cutter .
+
+<http://localhost:8000/ontology/cigars/Vega/shape> a sh:NodeShape ;
+    sh:name "Vega" ;
+    sh:targetClass cigars:Vega .
+
+<http://localhost:8000/ontology/cigars/Vein/shape> a sh:NodeShape ;
+    sh:name "Vein" ;
+    sh:targetClass cigars:Vein .
+
+<http://localhost:8000/ontology/cigars/Vertical%20Sampler/shape> a sh:NodeShape ;
+    sh:name "Vertical Sampler" ;
+    sh:targetClass cigars:Vertical%20Sampler .
+
+<http://localhost:8000/ontology/cigars/Viso/shape> a sh:NodeShape ;
+    sh:name "Viso" ;
+    sh:targetClass cigars:Viso .
+
+<http://localhost:8000/ontology/cigars/Vista/shape> a sh:NodeShape ;
+    sh:name "Vista" ;
+    sh:targetClass cigars:Vista .
+
+<http://localhost:8000/ontology/cigars/Vitola/shape> a sh:NodeShape ;
+    sh:name "Vitola" ;
+    sh:property <http://localhost:8000/ontology/cigars/Vitola/shape/http%3A%2F%2Flocalhost%3A8000%2Fontology%2Fcigars%2FVitola.lengthInches>,
+        <http://localhost:8000/ontology/cigars/Vitola/shape/http%3A%2F%2Flocalhost%3A8000%2Fontology%2Fcigars%2FVitola.ringGauge> ;
+    sh:targetClass cigars:Vitola .
+
+<http://localhost:8000/ontology/cigars/Vitolas/shape> a sh:NodeShape ;
+    sh:name "Vitolas" ;
+    sh:targetClass cigars:Vitolas .
+
+<http://localhost:8000/ontology/cigars/Volado/shape> a sh:NodeShape ;
+    sh:name "Volado" ;
+    sh:targetClass cigars:Volado .
+
+<http://localhost:8000/ontology/cigars/Vuelta%20Abajo/shape> a sh:NodeShape ;
+    sh:name "Vuelta Abajo" ;
+    sh:targetClass cigars:Vuelta%20Abajo .
+
+<http://localhost:8000/ontology/cigars/Wheel/shape> a sh:NodeShape ;
+    sh:name "Wheel" ;
+    sh:targetClass cigars:Wheel .
+
+<http://localhost:8000/ontology/cigars/Wilting/shape> a sh:NodeShape ;
+    sh:name "Wilting" ;
+    sh:targetClass cigars:Wilting .
+
+<http://localhost:8000/ontology/cigars/Wooden%20Match/shape> a sh:NodeShape ;
+    sh:name "Wooden Match" ;
+    sh:targetClass cigars:Wooden%20Match .
+
+<http://localhost:8000/ontology/cigars/Wrapper%20Colors/shape> a sh:NodeShape ;
+    sh:name "Wrapper Colors" ;
+    sh:targetClass cigars:Wrapper%20Colors .
+
+<http://localhost:8000/ontology/cigars/Wrapper/shape> a sh:NodeShape ;
+    sh:name "Wrapper" ;
+    sh:targetClass cigars:Wrapper .
+
+<http://localhost:8000/ontology/cigars/Yankee%20Hinge/shape> a sh:NodeShape ;
+    sh:name "Yankee Hinge" ;
+    sh:targetClass cigars:Yankee%20Hinge .
+
+<http://localhost:8000/ontology/cigars/Aging.months/shape> a sh:PropertyShape ;
+    sh:datatype xsd:integer ;
+    sh:name "months" ;
+    sh:path cigars:Aging.months .
+
+<http://localhost:8000/ontology/cigars/Box%20Code/shape/http%3A%2F%2Flocalhost%3A8000%2Fontology%2Fcigars%2FBox%2520Code.code> a sh:PropertyShape ;
+    sh:datatype xsd:string ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:name "code" ;
+    sh:path cigars:Box%20Code.code .
+
+<http://localhost:8000/ontology/cigars/Humidor/shape/http%3A%2F%2Flocalhost%3A8000%2Fontology%2Fcigars%2FHumidor.capacity> a sh:PropertyShape ;
+    sh:datatype xsd:integer ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:name "capacity" ;
+    sh:path cigars:Humidor.capacity .
+
+<http://localhost:8000/ontology/cigars/Smoking%20Time/shape/http%3A%2F%2Flocalhost%3A8000%2Fontology%2Fcigars%2FSmoking%2520Time.minutes> a sh:PropertyShape ;
+    sh:datatype xsd:integer ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:name "minutes" ;
+    sh:path cigars:Smoking%20Time.minutes .
+
+<http://localhost:8000/ontology/cigars/Vitola/shape/http%3A%2F%2Flocalhost%3A8000%2Fontology%2Fcigars%2FVitola.lengthInches> a sh:PropertyShape ;
+    sh:datatype xsd:decimal ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:name "lengthInches" ;
+    sh:path cigars:Vitola.lengthInches .
+
+<http://localhost:8000/ontology/cigars/Vitola/shape/http%3A%2F%2Flocalhost%3A8000%2Fontology%2Fcigars%2FVitola.ringGauge> a sh:PropertyShape ;
+    sh:datatype xsd:integer ;
+    sh:maxCount 1 ;
+    sh:minCount 1 ;
+    sh:name "ringGauge" ;
+    sh:path cigars:Vitola.ringGauge .

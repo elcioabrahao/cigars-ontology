@@ -1,0 +1,284 @@
+depth,fqn,term,parent_fqn
+0,cigars.Cigar Anatomy,Cigar Anatomy,
+1,cigars.Cigar Anatomy.Ash,Ash,cigars.Cigar Anatomy
+1,cigars.Cigar Anatomy.Band,Band,cigars.Cigar Anatomy
+1,cigars.Cigar Anatomy.Binder,Binder,cigars.Cigar Anatomy
+1,cigars.Cigar Anatomy.Cap,Cap,cigars.Cigar Anatomy
+1,cigars.Cigar Anatomy.Filler,Filler,cigars.Cigar Anatomy
+1,cigars.Cigar Anatomy.Foot,Foot,cigars.Cigar Anatomy
+1,cigars.Cigar Anatomy.Head,Head,cigars.Cigar Anatomy
+1,cigars.Cigar Anatomy.Oil,Oil,cigars.Cigar Anatomy
+1,cigars.Cigar Anatomy.Shoulder,Shoulder,cigars.Cigar Anatomy
+1,cigars.Cigar Anatomy.Tooth,Tooth,cigars.Cigar Anatomy
+1,cigars.Cigar Anatomy.Vein,Vein,cigars.Cigar Anatomy
+1,cigars.Cigar Anatomy.Wrapper,Wrapper,cigars.Cigar Anatomy
+0,cigars.Cigar Culture and Commerce,Cigar Culture and Commerce,
+1,cigars.Cigar Culture and Commerce.Bethune,Bethune,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Blowout Bin,Blowout Bin,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Boutique,Boutique,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Brother Of The Leaf,Brother Of The Leaf,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Buckeye,Buckeye,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Chinchal,Chinchal,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Cigar Association of America,Cigar Association of America,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Cigar Bar,Cigar Bar,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Cigar Boom,Cigar Boom,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Cigar Box Tool,Cigar Box Tool,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Cigar Case,Cigar Case,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Cigar Lounge,Cigar Lounge,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Cigar Rights of America,Cigar Rights of America,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Clear Havana,Clear Havana,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Closeout,Closeout,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Cubatabaco,Cubatabaco,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Federal Excise Tax,Federal Excise Tax,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Glass Top Cohibas,Glass Top Cohibas,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Guajiro,Guajiro,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Guayabera,Guayabera,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Habanos SA,Habanos SA,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.IPCPR,IPCPR,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.La Casa Del Habano,La Casa Del Habano,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Pre Castro Cigar,Pre Castro Cigar,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Pre Embargo Cigar,Pre Embargo Cigar,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Regional Edition,Regional Edition,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.SCHIP,SCHIP,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Single,Single,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Small Batch,Small Batch,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Stogie,Stogie,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Suggested Retail Price,Suggested Retail Price,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Tabaquero,Tabaquero,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Top 25,Top 25,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Vega,Vega,cigars.Cigar Culture and Commerce
+1,cigars.Cigar Culture and Commerce.Vertical Sampler,Vertical Sampler,cigars.Cigar Culture and Commerce
+0,cigars.Cigar Packaging,Cigar Packaging,
+1,cigars.Cigar Packaging.Bofeton,Bofeton,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Boite Nature,Boite Nature,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Box,Box,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Box Code,Box Code,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Brooch,Brooch,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Bundle,Bundle,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Cabinet Selection,Cabinet Selection,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Cedar Spill,Cedar Spill,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Cellophane,Cellophane,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Coffin,Coffin,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Collars,Collars,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Costero,Costero,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Cubierta,Cubierta,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Eight Nine Eight,Eight Nine Eight,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Foil,Foil,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Glass Jar,Glass Jar,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Half Wheel,Half Wheel,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Larguero,Larguero,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Papeleta,Papeleta,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Semi Boite Nature,Semi Boite Nature,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Slide Lid Box,Slide Lid Box,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Spanish Cedar,Spanish Cedar,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Tapaclavo,Tapaclavo,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Thirteen Toppers,Thirteen Toppers,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Trim,Trim,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Tube,Tube,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Vista,Vista,cigars.Cigar Packaging
+1,cigars.Cigar Packaging.Wheel,Wheel,cigars.Cigar Packaging
+0,cigars.Cigar Production,Cigar Production,
+1,cigars.Cigar Production.Accordion Method,Accordion Method,cigars.Cigar Production
+1,cigars.Cigar Production.Blend,Blend,cigars.Cigar Production
+1,cigars.Cigar Production.Blind Taste,Blind Taste,cigars.Cigar Production
+1,cigars.Cigar Production.Booking,Booking,cigars.Cigar Production
+1,cigars.Cigar Production.Bunch,Bunch,cigars.Cigar Production
+1,cigars.Cigar Production.Buncher,Buncher,cigars.Cigar Production
+1,cigars.Cigar Production.Bunching,Bunching,cigars.Cigar Production
+1,cigars.Cigar Production.Bunching Machine,Bunching Machine,cigars.Cigar Production
+1,cigars.Cigar Production.Chaveta,Chaveta,cigars.Cigar Production
+1,cigars.Cigar Production.Cigar Maker,Cigar Maker,cigars.Cigar Production
+1,cigars.Cigar Production.Cigar Rolling,Cigar Rolling,cigars.Cigar Production
+1,cigars.Cigar Production.Color Sorting,Color Sorting,cigars.Cigar Production
+1,cigars.Cigar Production.Destemming,Destemming,cigars.Cigar Production
+1,cigars.Cigar Production.Draw Test Machine,Draw Test Machine,cigars.Cigar Production
+1,cigars.Cigar Production.Entubar,Entubar,cigars.Cigar Production
+1,cigars.Cigar Production.Escaparates,Escaparates,cigars.Cigar Production
+1,cigars.Cigar Production.Flag Tip,Flag Tip,cigars.Cigar Production
+1,cigars.Cigar Production.Gum,Gum,cigars.Cigar Production
+1,cigars.Cigar Production.Hand Rolled,Hand Rolled,cigars.Cigar Production
+1,cigars.Cigar Production.Homogenized Tobacco Leaf,Homogenized Tobacco Leaf,cigars.Cigar Production
+1,cigars.Cigar Production.Lector,Lector,cigars.Cigar Production
+1,cigars.Cigar Production.Long Filler,Long Filler,cigars.Cigar Production
+1,cigars.Cigar Production.Machine Made,Machine Made,cigars.Cigar Production
+1,cigars.Cigar Production.Mixed Filler,Mixed Filler,cigars.Cigar Production
+1,cigars.Cigar Production.Mold,Mold,cigars.Cigar Production
+1,cigars.Cigar Production.Multi Origin Blend,Multi Origin Blend,cigars.Cigar Production
+1,cigars.Cigar Production.Press,Press,cigars.Cigar Production
+1,cigars.Cigar Production.Roller,Roller,cigars.Cigar Production
+1,cigars.Cigar Production.Rolling Gallery,Rolling Gallery,cigars.Cigar Production
+1,cigars.Cigar Production.Rolling Method,Rolling Method,cigars.Cigar Production
+1,cigars.Cigar Production.Rolling Table,Rolling Table,cigars.Cigar Production
+1,cigars.Cigar Production.Short Filler,Short Filler,cigars.Cigar Production
+1,cigars.Cigar Production.Tobacco Sorting,Tobacco Sorting,cigars.Cigar Production
+1,cigars.Cigar Production.Triple Cap,Triple Cap,cigars.Cigar Production
+0,cigars.Curing and Fermentation,Curing and Fermentation,
+1,cigars.Curing and Fermentation.Aging,Aging,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Aging Room,Aging Room,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Ammonia,Ammonia,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Bale,Bale,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Box Aging,Box Aging,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Calfrisa,Calfrisa,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Carbon,Carbon,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Carotene,Carotene,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Casing,Casing,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Cuje,Cuje,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Curing,Curing,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Curing Barn,Curing Barn,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Doghouse,Doghouse,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Empilonando,Empilonando,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Ensarte,Ensarte,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Fermentation,Fermentation,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Firemen,Firemen,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Hand,Hand,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Microfermentation,Microfermentation,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Mulling,Mulling,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Pilon,Pilon,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Quisqueya,Quisqueya,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Sarta,Sarta,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Tercios,Tercios,cigars.Curing and Fermentation
+1,cigars.Curing and Fermentation.Yankee Hinge,Yankee Hinge,cigars.Curing and Fermentation
+0,cigars.Storage and Smoking,Storage and Smoking,
+1,cigars.Storage and Smoking.Active Humidification System,Active Humidification System,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Aroma,Aroma,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Aroma Wheel,Aroma Wheel,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Bleeding,Bleeding,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Bleeding the Lighter,Bleeding the Lighter,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Bloom,Bloom,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Butane,Butane,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Canoeing,Canoeing,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Cold Draw,Cold Draw,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Combustion,Combustion,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Complexity,Complexity,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Cutter,Cutter,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Dipping,Dipping,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Draw,Draw,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Finish,Finish,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Firm,Firm,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Guillotine,Guillotine,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Hot,Hot,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Humidification Element,Humidification Element,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Humidor,Humidor,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Hygrometer,Hygrometer,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Inhale,Inhale,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Lighter,Lighter,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Lighter Fluid,Lighter Fluid,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Loose,Loose,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Nicotine Strength,Nicotine Strength,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Nosing,Nosing,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Passive Humidification System,Passive Humidification System,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Piercer,Piercer,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Plugged,Plugged,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Propylene Glycol,Propylene Glycol,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Punch Cutter,Punch Cutter,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Purging,Purging,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Scissors,Scissors,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Smoke Output,Smoke Output,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Smoking Temperature,Smoking Temperature,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Smoking Time,Smoking Time,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Sweet Spot,Sweet Spot,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Toasting,Toasting,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Tobacco Beetle,Tobacco Beetle,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Torch Lighter,Torch Lighter,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Tunneling,Tunneling,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.V Cutter,V Cutter,cigars.Storage and Smoking
+1,cigars.Storage and Smoking.Wooden Match,Wooden Match,cigars.Storage and Smoking
+0,cigars.Tobacco Cultivation,Tobacco Cultivation,
+1,cigars.Tobacco Cultivation.Blue Mold,Blue Mold,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Cheesecloth,Cheesecloth,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Encallado,Encallado,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Hybrid,Hybrid,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Libre de Pie,Libre de Pie,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Ligero,Ligero,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Medio Tiempo,Medio Tiempo,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Nicotiana Tabacum,Nicotiana Tabacum,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Pelletized,Pelletized,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Primings,Primings,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Seco,Seco,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Seedbed,Seedbed,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Seedling,Seedling,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Shade Grown,Shade Grown,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Stalk Cut,Stalk Cut,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Sucker,Sucker,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Sun Grown,Sun Grown,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Tobacco Seed,Tobacco Seed,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Topping,Topping,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Transplanter,Transplanter,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Viso,Viso,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Volado,Volado,cigars.Tobacco Cultivation
+1,cigars.Tobacco Cultivation.Wilting,Wilting,cigars.Tobacco Cultivation
+0,cigars.Tobaccos and Origins,Tobaccos and Origins,
+1,cigars.Tobaccos and Origins.Arapiraca,Arapiraca,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Bonao,Bonao,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Cameroon,Cameroon,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Cibao Valley,Cibao Valley,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Condega,Condega,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Connecticut Broadleaf,Connecticut Broadleaf,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Connecticut Habano,Connecticut Habano,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Connecticut River Valley,Connecticut River Valley,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Connecticut Shade,Connecticut Shade,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Corojo,Corojo,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Cuban Seed,Cuban Seed,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Dominican Republic,Dominican Republic,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Ecuador,Ecuador,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Esteli,Esteli,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Habano,Habano,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Havana,Havana,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Honduras,Honduras,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.ISOM,ISOM,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Jalapa,Jalapa,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Jamastran,Jamastran,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Mata Fina,Mata Fina,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Nicaragua,Nicaragua,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Olor,Olor,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Ometepe,Ometepe,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Partido,Partido,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Pelo D Oro,Pelo D Oro,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Piloto Cubano,Piloto Cubano,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Pinar del Rio,Pinar del Rio,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Puro,Puro,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.San Andres,San Andres,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.San Vincente,San Vincente,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Santiago,Santiago,cigars.Tobaccos and Origins
+1,cigars.Tobaccos and Origins.Vuelta Abajo,Vuelta Abajo,cigars.Tobaccos and Origins
+0,cigars.Vitolas,Vitolas,
+1,cigars.Vitolas.A Size,A Size,cigars.Vitolas
+1,cigars.Vitolas.Belicoso,Belicoso,cigars.Vitolas
+1,cigars.Vitolas.Box Pressed,Box Pressed,cigars.Vitolas
+1,cigars.Vitolas.Cheroot,Cheroot,cigars.Vitolas
+1,cigars.Vitolas.Churchill,Churchill,cigars.Vitolas
+1,cigars.Vitolas.Cigarillo,Cigarillo,cigars.Vitolas
+1,cigars.Vitolas.Corona,Corona,cigars.Vitolas
+1,cigars.Vitolas.Corona Gorda,Corona Gorda,cigars.Vitolas
+1,cigars.Vitolas.Culebra,Culebra,cigars.Vitolas
+1,cigars.Vitolas.Diadema,Diadema,cigars.Vitolas
+1,cigars.Vitolas.Double Corona,Double Corona,cigars.Vitolas
+1,cigars.Vitolas.Figurado,Figurado,cigars.Vitolas
+1,cigars.Vitolas.Gorda,Gorda,cigars.Vitolas
+1,cigars.Vitolas.Gordito,Gordito,cigars.Vitolas
+1,cigars.Vitolas.Gran Corona,Gran Corona,cigars.Vitolas
+1,cigars.Vitolas.Lancero,Lancero,cigars.Vitolas
+1,cigars.Vitolas.Lonsdale,Lonsdale,cigars.Vitolas
+1,cigars.Vitolas.Panetela,Panetela,cigars.Vitolas
+1,cigars.Vitolas.Parejo,Parejo,cigars.Vitolas
+1,cigars.Vitolas.Perfecto,Perfecto,cigars.Vitolas
+1,cigars.Vitolas.Petit Corona,Petit Corona,cigars.Vitolas
+1,cigars.Vitolas.Pyramid,Pyramid,cigars.Vitolas
+1,cigars.Vitolas.Ring Gauge,Ring Gauge,cigars.Vitolas
+1,cigars.Vitolas.Robusto,Robusto,cigars.Vitolas
+1,cigars.Vitolas.Salomon,Salomon,cigars.Vitolas
+1,cigars.Vitolas.Toro,Toro,cigars.Vitolas
+1,cigars.Vitolas.Torpedo,Torpedo,cigars.Vitolas
+1,cigars.Vitolas.Trumpet,Trumpet,cigars.Vitolas
+1,cigars.Vitolas.Trunk Pressed,Trunk Pressed,cigars.Vitolas
+1,cigars.Vitolas.Vitola,Vitola,cigars.Vitolas
+0,cigars.Wrapper Colors,Wrapper Colors,
+1,cigars.Wrapper Colors.Amarillo,Amarillo,cigars.Wrapper Colors
+1,cigars.Wrapper Colors.Candela,Candela,cigars.Wrapper Colors
+1,cigars.Wrapper Colors.Claro,Claro,cigars.Wrapper Colors
+1,cigars.Wrapper Colors.Colorado,Colorado,cigars.Wrapper Colors
+1,cigars.Wrapper Colors.Colorado Maduro,Colorado Maduro,cigars.Wrapper Colors
+1,cigars.Wrapper Colors.Maduro,Maduro,cigars.Wrapper Colors
+1,cigars.Wrapper Colors.Natural,Natural,cigars.Wrapper Colors
+1,cigars.Wrapper Colors.Oscuro,Oscuro,cigars.Wrapper Colors
+1,cigars.Wrapper Colors.Rosado,Rosado,cigars.Wrapper Colors

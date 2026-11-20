@@ -1,0 +1,2179 @@
+@prefix cigars: <http://localhost:8000/ontology/cigars/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+cigars:A%20Size a skos:Concept ;
+    skos:altLabel "A" ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "Among the largest standard cigar sizes, traditionally 9.25 inches by a 47 ring gauge; 'A' cigars can burn for as much as two hours." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "A Size" .
+
+cigars:Accordion%20Method a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A rolling method in which the leaves are folded in a zig-zag shape like an accordion's bellows; faster than entubado, slower than booking." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Accordion Method" .
+
+cigars:Active%20Humidification%20System a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "An electric or battery-powered device that expels and circulates humidity; typically used in larger humidors or cabinets." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Active Humidification System" .
+
+cigars:Amarillo a skos:Concept ;
+    skos:broader cigars:Wrapper%20Colors ;
+    skos:definition "A yellow cigar wrapper." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Amarillo" .
+
+cigars:Ammonia a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "Present in freshly harvested tobacco leaves; proper curing and fermentation rid the leaves of it, and improperly aged cigars deliver a harsh, bitter taste from it." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Ammonia" .
+
+cigars:Arapiraca a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A tobacco with dark, oily leaves grown in the northeastern coastal region of Brazil; its seeds are also grown in Ecuador." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q626175> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Arapiraca" .
+
+cigars:Aroma a skos:Concept ;
+    skos:altLabel "bouquet",
+        "room note" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The scent of a cigar, lit or unlit, as perceived by the olfactory senses." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Aroma" .
+
+cigars:Aroma%20Wheel a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A categorization tool used to describe and identify the different scents and flavor nuances in cigars, ranging from woody and spicy to floral and sweet." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Aroma Wheel" .
+
+cigars:Ash a skos:Concept ;
+    skos:altLabel "Stack" ;
+    skos:broader cigars:Cigar%20Anatomy ;
+    skos:definition "The burnt end of a lit cigar; its color (white, grey, black) reflects soil minerals such as magnesium." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Ash" .
+
+cigars:Bale a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "A compressed, wrapped unit of storage for cured and fermented tobacco — often 100 pounds or more, aged for years or even decades." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Bale" .
+
+cigars:Band a skos:Concept ;
+    skos:altLabel "anilla" ;
+    skos:broader cigars:Cigar%20Anatomy ;
+    skos:definition "The often colorful ring of paper around the head of a cigar identifying the brand and country of origin, often with intricate lithography." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Band" .
+
+cigars:Belicoso a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A cigar shape similar to a Torpedo but shorter, with a more abrupt taper at the head." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Belicoso" .
+
+cigars:Bethune a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A recipe of herbs, wine, rum, or liqueurs used to infuse tobaccos." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Bethune" .
+
+cigars:Binder a skos:Concept ;
+    skos:altLabel "banda",
+        "capote" ;
+    skos:broader cigars:Cigar%20Anatomy ;
+    skos:definition "The leaf that holds the filler leaves together inside a cigar; often a wrapper-grade leaf downgraded for cosmetic imperfections; with the filler it forms the bunch." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Binder" .
+
+cigars:Bleeding a skos:Concept ;
+    skos:altLabel "purging (lighter)" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "Releasing an unwanted pocket of air from a butane lighter's fuel tank so a full injection of fresh fuel can occupy it; also called purging a lighter." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Bleeding" .
+
+cigars:Bleeding%20the%20Lighter a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The practice of releasing trapped air and old butane from a jet-flame lighter before refilling, to ensure a cleaner, more efficient flame." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Bleeding the Lighter" .
+
+cigars:Blind%20Taste a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The process of smoking a cigar after its band has been removed, with no knowledge of the brand or blend." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Blind Taste" .
+
+cigars:Blowout%20Bin a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "The clearance aisle or shelf, physical or online, for cigars marked down to the lowest possible prices; a buzz word for bargain hunters." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Blowout Bin" .
+
+cigars:Blue%20Mold a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "An airborne fungus (peronospora tabacina) that can infect and ruin an entire tobacco field in days; it has impacted every major growing region." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Blue Mold" .
+
+cigars:Bofeton a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "The layer of paper or film that folds protectively over the cigars inside a dress box, typically featuring the brand's logo." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Bofeton" .
+
+cigars:Boite%20Nature a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "The formally styled cedar cigar box: two hinges, a clasp, dovetailed joints, and four lifted cedar collars forming an inner lip." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Boite Nature" .
+
+cigars:Bonao a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "An agricultural region of the Dominican Republic, roughly an hour from Santiago, where Fuente Fuente Opus X's Cuban-seed shade tobaccos were first harvested." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2306136> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Bonao" .
+
+cigars:Booking a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A rolling method in which filler leaves are layered on top of one another like pages of a book and rolled up in a scroll; quick, but can create draw issues." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Booking" .
+
+cigars:Boutique a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A term once used for small-batch releases from makers outside the mainstream; overuse has eroded it as a romantic classification." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Boutique" .
+
+cigars:Box a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "The traditional cigar package, widely credited to H. Upmann in the early 1800s; US law since 1865 requires wooden boxes in counts of 25, 50, 100, or 250; Spanish cedar is the most common material." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Box" .
+
+cigars:Box%20Code a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A code, found predominantly on the bottom of Cuban boxes, used to identify the age of the cigars; uncommon outside Cuba." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Box Code" .
+
+cigars:Box%20Pressed a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A cigar with a flat, somewhat squared shape resulting from tight packing in a box with a flat top; degrees vary." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Box Pressed" .
+
+cigars:Brooch a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "The clasp that fastens the top of a cigar box lid to the bottom." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Brooch" .
+
+cigars:Brother%20Of%20The%20Leaf a skos:Concept ;
+    skos:altLabel "BOTL" ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A popular contemporary term identifying a fellow cigar lover; usage has blossomed across the Internet." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Brother Of The Leaf" .
+
+cigars:Buckeye a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A small US cigar factory from before the Cuban Revolution; the term originates from Ohio-grown tobacco, the Buckeye State." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Buckeye" .
+
+cigars:Bunch a skos:Concept ;
+    skos:altLabel "bonche" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The combination of binder and filler leaves, placed in a mold and then finished with a wrapper leaf." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Bunch" .
+
+cigars:Buncher a skos:Concept ;
+    skos:altLabel "boncheros",
+        "bunchers" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The factory worker who specializes in assembling the binder and filler leaves; distinct from the roller in many factories." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Buncher" .
+
+cigars:Bunching%20Machine a skos:Concept ;
+    skos:altLabel "Lieberman",
+        "Temsco" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A hand-powered machine with a leather pad, guides, and a metal lever that aids assembly of the bunch; common in the Dominican Republic, rare elsewhere, unknown in Cuba." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Bunching Machine" .
+
+cigars:Bundle a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "Cigars packaged wrapped in cellophane instead of boxes, commonly in counts of 20 or 25; once for un-banded seconds, now also an economy premium format." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Bundle" .
+
+cigars:Butane a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A clean-burning, odorless fuel preferred for cigar lighters; fuel refined at least five times is strongly recommended." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Butane" .
+
+cigars:Calfrisa a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "A climate-controlled curing barn delivering precise humidity and temperature through interior ductwork; uncommon due to expense and construction." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Calfrisa" .
+
+cigars:Canoeing a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A burn defect where one portion of the cigar burns hotter and faster than the other; sometimes remedied by touching up the burn with a lighter." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Canoeing" .
+
+cigars:Carbon a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "Charcoal (Spanish) used to raise the temperature in tobacco-curing barns; many operations now use propane heaters." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Carbon" .
+
+cigars:Carotene a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "A plant pigment that replaces chlorophyll in tobacco as the chlorophyll naturally breaks down." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Carotene" .
+
+cigars:Casing a skos:Concept ;
+    skos:altLabel "case" ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "Re-moisturizing aged tobacco so it can be worked with, by dipping in water, misting, or high-humidity storage; also a term for flavoring pipe tobacco." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Casing" .
+
+cigars:Chaveta a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The flat piece of steel with a curved end that a cigar roller uses to trim a wrapper leaf to the correct size." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Chaveta" .
+
+cigars:Cheesecloth a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "The material once used to cover shade-grown tobacco fields; today replaced by nylon." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cheesecloth" .
+
+cigars:Cheroot a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A rustic, often inexpensive cigar with an open foot and an open head; associated with Spaghetti Westerns." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cheroot" .
+
+cigars:Chinchal a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "Slang for a small cigar factory or shop." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Chinchal" .
+
+cigars:Churchill a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A classic cigar shape measuring 7 inches by a 47 ring gauge, named for Sir Winston Churchill, history's most famous cigar smoker." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Churchill" .
+
+cigars:Cibao%20Valley a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "The Dominican valley in which much of the country's premium tobacco is planted." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q135916712> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cibao Valley" .
+
+cigars:Cigar%20Association%20of%20America a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "An organization of importers, distributors, and manufacturers of cigars." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cigar Association of America" .
+
+cigars:Cigar%20Bar a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A bar or lounge where cigar smoking is permitted." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cigar Bar" .
+
+cigars:Cigar%20Boom a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "The period of tremendous growth in the premium cigar industry from the early to late 1990s, when demand quadrupled from 100 million to over 400 million cigars." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cigar Boom" .
+
+cigars:Cigar%20Box%20Tool a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "The simple tool used to break cigar box seals in retail shops, removing the nail that seals a flat-top box and pounding it back in." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cigar Box Tool" .
+
+cigars:Cigar%20Case a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A case designed to protect cigars during travel or transport, ranging from pocket sizes holding one to three cigars to larger models storing ten or more." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cigar Case" .
+
+cigars:Cigar%20Lounge a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A room or area where cigar smoking is permitted, primarily found inside premium cigar retail shops." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cigar Lounge" .
+
+cigars:Cigar%20Maker a skos:Concept ;
+    skos:altLabel "cigar-maker" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The owner of a cigar factory or brand; can also refer to a cigar roller." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cigar Maker" .
+
+cigars:Cigar%20Rights%20of%20America a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "An organization established in 2008 by cigar companies, retailers, and consumers to promote and protect the rights of premium cigar lovers." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cigar Rights of America" .
+
+cigars:Cigar%20Rolling a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The artisanal process of handcrafting a cigar: carefully arranging filler, binder, and wrapper leaves to ensure optimal construction and draw." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cigar Rolling" .
+
+cigars:Cigarillo a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A small, thin, quick-burning machine-made cigar, usually of dry-cured short-filler tobacco, packaged in counts of ten or twenty." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cigarillo" .
+
+cigars:Claro a skos:Concept ;
+    skos:broader cigars:Wrapper%20Colors ;
+    skos:definition "A pale wrapper leaf, from a light, faded green hue to a light tan." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Claro" .
+
+cigars:Clear%20Havana a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A cigar manufactured in the US prior to the Cuban Embargo, made with Cuban tobacco." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Clear Havana" .
+
+cigars:Closeout a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A discontinued brand or blend that will no longer be made, removed from the market quickly at dramatically lowered prices." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Closeout" .
+
+cigars:Coffin a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "An individual box for a single cigar." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Coffin" .
+
+cigars:Collars a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "The Spanish cedar slats that line the interior edges of a cigar box and form an inner lip." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Collars" .
+
+cigars:Color%20Sorting a skos:Concept ;
+    skos:altLabel "escogida" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "Among the last steps of production: trained workers examine each cigar against a stark black or white surface so every box exhibits a uniform color." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Color Sorting" .
+
+cigars:Colorado a skos:Concept ;
+    skos:altLabel "Rojizo" ;
+    skos:broader cigars:Wrapper%20Colors ;
+    skos:definition "A brown or reddish-brown color classification of wrapper leaves." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Colorado" .
+
+cigars:Colorado%20Maduro a skos:Concept ;
+    skos:broader cigars:Wrapper%20Colors ;
+    skos:definition "A wrapper shade darker than Colorado and lighter than Maduro, combining strength and sweetness with a typically richer taste." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Colorado Maduro" .
+
+cigars:Combustion a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The rate and efficiency at which a cigar burns, influenced by humidity, the tobacco blend, and construction." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Combustion" .
+
+cigars:Complexity a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The condition of taste when a cigar produces multiple transitions of flavor." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Complexity" .
+
+cigars:Condega a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "One of Nicaragua's three key tobacco-growing regions, just north of Esteli, known for medium-bodied, rich tobacco." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1012589> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Condega" .
+
+cigars:Connecticut%20Broadleaf a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A primary wrapper leaf grown in the Connecticut River Valley under direct sunlight, almost always processed as Maduro and harvested by stalk cutting." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Connecticut Broadleaf" .
+
+cigars:Connecticut%20Habano a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A rare Cuban-seed wrapper grown in the Connecticut River Valley, known for its rich, leathery taste." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Connecticut Habano" .
+
+cigars:Connecticut%20River%20Valley a skos:Concept ;
+    skos:altLabel "Connecticut" ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "The primary tobacco-growing region of the US, from Hartford through Massachusetts; its fertile soils and growing techniques produce prized wrapper tobacco." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q108574278> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Connecticut River Valley" .
+
+cigars:Corona a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A classic cigar size, typically 5 5/8 inches by a 42 ring gauge." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Corona" .
+
+cigars:Corona%20Gorda a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A 'fat' Corona, typically with a ring gauge over 50, approximating a traditional Toro in size." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Corona Gorda" .
+
+cigars:Costero a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "The sides of a cigar box that bear the brand's name, logo, and other visual elements." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Costero" .
+
+cigars:Cuban%20Seed a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "Tobaccos grown outside Cuba from seed varietals that originated there; Ecuador is a prominent region for Cuban-seed wrappers." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cuban Seed" .
+
+cigars:Cubatabaco a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "The government-owned enterprise that controls all of Cuba's cigar brands." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cubatabaco" .
+
+cigars:Cubierta a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "The outer lid or top of a cigar box." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cubierta" .
+
+cigars:Cuje a skos:Concept ;
+    skos:altLabel "lathe" ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "The wooden pole in a curing barn from which freshly harvested tobacco leaves hang; cuje cortos run about six feet, cuje largos twelve." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cuje" .
+
+cigars:Culebra a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "Spanish for 'snake': three Panetelas (often 6 x 38) braided together and meant to be smoked individually; one origin theory is factory inventory control for rollers." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Culebra" .
+
+cigars:Curing%20Barn a skos:Concept ;
+    skos:altLabel "casa de tabaco" ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "The structure where harvested tobacco is stored and dried gradually for roughly 45 days; temperature and humidity determine the curing time." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Curing Barn" .
+
+cigars:Destemming a skos:Concept ;
+    skos:altLabel "despalillo",
+        "stemming" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "Removing the thick stems from tobacco leaves so they can be rolled: the entire stem for binder and wrapper leaves, the bottom two-thirds for filler." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Destemming" .
+
+cigars:Diadema a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A large Figurado, usually at least 8 inches long, with a tapered head and closed foot; a common Diadema is the Salomon." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Diadema" .
+
+cigars:Dipping a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "Dipping the head of a cigar into a drink, typically a darker spirit; often disapproved of by purists." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Dipping" .
+
+cigars:Doghouse a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "The top vent or opening of a tobacco curing barn where heat escapes and air flows." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Doghouse" .
+
+cigars:Dominican%20Republic a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A nation regarded as one of the primary producers of premium cigars in the world; Santiago and La Romana account for much of its production." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q786> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Dominican Republic" .
+
+cigars:Double%20Corona a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A long cigar size, typically 7.5 inches by a 49 to 52 ring gauge, providing an extended, cooler burn." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Double Corona" .
+
+cigars:Draw%20Test%20Machine a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A quality-control device that pulls air through a cigar to ensure it is rolled neither too tight nor too loose; widely relied upon since the 1990s." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Draw Test Machine" .
+
+cigars:Ecuador a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A South American nation whose natural cloud cover and nutrient-rich volcanic soils produce prized wrapper leaves, chiefly outside Guayaquil in the Andes foothills." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q736> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Ecuador" .
+
+cigars:Eight%20Nine%20Eight a skos:Concept ;
+    skos:altLabel "8-9-8" ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A traditional packing of 25 cigars in a box: 8 on the bottom row, 9 in the middle, 8 on top." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Eight Nine Eight" .
+
+cigars:Empilonando a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "The process of assembling a pilon or bulk of tobacco for fermentation." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Empilonando" .
+
+cigars:Encallado a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "A limited form of shading where barriers are erected only on the sides of the crop, protecting from wind and low-angle sun." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Encallado" .
+
+cigars:Ensarte a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "The process of transferring harvested tobacco leaves from the fields to the curing barn." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Ensarte" .
+
+cigars:Entubar a skos:Concept ;
+    skos:altLabel "entubado" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A rolling method in which each filler leaf is rolled into a tube shape to ensure a perfect draw." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Entubar" .
+
+cigars:Esteli a skos:Concept ;
+    skos:altLabel "Estelí" ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q728015> ;
+    skos:definition "The Nicaraguan town around which much of the country's cigar production is situated; its tobacco is the strongest of the three key regions." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Esteli" .
+
+cigars:Federal%20Excise%20Tax a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "The tax levied on cigars imported into the US; the 2009 SCHIP expansion raised it from under 5 cents to 40.26 cents per cigar." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Federal Excise Tax" .
+
+cigars:Figurado a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "Any non-Parejo cigar shape, such as Torpedos, Belicosos, Pyramids, and Perfectos." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Figurado" .
+
+cigars:Finish a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The final tasting notes of a cigar, or its residual taste on the palate; lingers longer in stronger cigars." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Finish" .
+
+cigars:Firemen a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "Workers in curing barns who continually monitor conditions as heat is introduced, to insure no fire starts; temperatures can exceed 150 degrees Fahrenheit." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Firemen" .
+
+cigars:Firm a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A cigar whose draw is too tight or that is rolled too densely." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Firm" .
+
+cigars:Foil a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A decorative and protective wrap, often covering a portion of a cigar, that can also encapsulate flavor as it ages." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Foil" .
+
+cigars:Glass%20Jar a skos:Concept ;
+    skos:altLabel "Amatista jar",
+        "amatista" ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A vintage packaging form: heavy glass jars of 25 or 50 cigars, rarely used today." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Glass Jar" .
+
+cigars:Glass%20Top%20Cohibas a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A reference to commonly counterfeited Cuban Cohibas: real ones are never packaged in boxes with a clear window displaying the cigars." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Glass Top Cohibas" .
+
+cigars:Gorda a skos:Concept ;
+    skos:altLabel "Gordo" ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "Spanish for 'fat'; a reference to thicker cigar shapes." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Gorda" .
+
+cigars:Gordito a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A Cuban cigar size measuring 5.5 inches by a 50 ring gauge." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Gordito" .
+
+cigars:Gran%20Corona a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A very long cigar size, typically 9.25 inches by a 47 ring gauge." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Gran Corona" .
+
+cigars:Guajiro a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A complimentary Cuban term for a farmer or man of the earth." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Guajiro" .
+
+cigars:Guayabera a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A traditional Cuban dress shirt lined with many front pockets, worn untucked." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Guayabera" .
+
+cigars:Guillotine a skos:Concept ;
+    skos:altLabel "straight cutter" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A straight cutter that clips the cap off the head of a cigar." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Guillotine" .
+
+cigars:Habano a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "Another term for a Cuban cigar." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Habano" .
+
+cigars:Habanos%20SA a skos:Concept ;
+    skos:altLabel "Habanos S.A." ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "The company in charge of global distribution for Cuban cigars." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Habanos SA" .
+
+cigars:Half%20Wheel a skos:Concept ;
+    skos:altLabel "media rueda" ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A bundle of 50 cigars, traditionally tied with a ribbon." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Half Wheel" .
+
+cigars:Hand a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "Roughly 30 to 40 tobacco leaves tied together during the curing process; several hands are assembled into a bulk for fermentation." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Hand" .
+
+cigars:Hand%20Rolled a skos:Concept ;
+    skos:altLabel "hand-rolled" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A cigar made entirely by hand from premium long-filler tobaccos finished with a wrapper leaf." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Hand Rolled" .
+
+cigars:Havana a skos:Concept ;
+    skos:altLabel "Habana" ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "The capital of Cuba; also a term often used to refer to Cuban cigars." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1563> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Havana" .
+
+cigars:Head a skos:Concept ;
+    skos:broader cigars:Cigar%20Anatomy ;
+    skos:definition "The end of the cigar that goes in the mouth, enclosed by the cap." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Head" .
+
+cigars:Homogenized%20Tobacco%20Leaf a skos:Concept ;
+    skos:altLabel "HTL" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A sheet of chopped tobacco scraps and cellulose adhesive, cut up for use in cheap machine-made cigars; never used in premium handmade cigars." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Homogenized Tobacco Leaf" .
+
+cigars:Honduras a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "The fourth largest cigar-producing nation, behind Nicaragua, the Dominican Republic, and Cuba." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q783> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Honduras" .
+
+cigars:Hot a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "Burning too fast or hot, typically of cigars rolled too loosely or under-filled." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Hot" .
+
+cigars:Humidification%20Element a skos:Concept ;
+    skos:altLabel "humidification unit",
+        "reservoir" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The humidity source inside a humidor — traditionally floral foam in a vented plastic or metal case — replenished with distilled water or propylene glycol." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Humidification Element" .
+
+cigars:Hybrid a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "A tobacco varietal developed by crossing two or more plant types, engineered for disease resistance, greater yields, or specific flavor profiles." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Hybrid" .
+
+cigars:Hygrometer a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The device in a humidor that measures the humidity level; analog dial models persist alongside digital ones that also read temperature." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Hygrometer" .
+
+cigars:IPCPR a skos:Concept ;
+    skos:altLabel "International Premium Cigar & Pipe Retailers Association",
+        "RTDA",
+        "Retail Tobacco Dealers of America" ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "The International Premium Cigar & Pipe Retailers Association, formerly the Retail Tobacco Dealers of America: a US trade organization of premium tobacco retailers." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "IPCPR" .
+
+cigars:ISOM a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "Slang for Cuba: the Island South of Miami." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "ISOM" .
+
+cigars:Inhale a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "Drawing smoke into the lungs or diaphragm; common among cigarette smokers but never attempted with cigars." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Inhale" .
+
+cigars:Jalapa a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "One of Nicaragua's three key tobacco-growing regions; its refined tobacco is often used as wrapper and is the least intense of the three." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q2395471> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Jalapa" .
+
+cigars:Jamastran a skos:Concept ;
+    skos:altLabel "Jamastrán" ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A key tobacco-growing valley in Honduras, near Danli." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Jamastran" .
+
+cigars:La%20Casa%20Del%20Habano a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "Cigar shops that sell Cuban cigars and are partially owned by Habanos S.A." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "La Casa Del Habano" .
+
+cigars:Lancero a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A long, narrow cigar size, traditionally 7 to 7.5 inches by a 38 ring gauge, noted for concentrated flavor." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Lancero" .
+
+cigars:Larguero a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "The front side of a cigar box where the brand name, logo, and decorative elements appear." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Larguero" .
+
+cigars:Lector a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A person who reads to the cigar rollers while they make cigars; an uncommon practice today that survives in Cuba; the Montecristo brand traces its name to a lector's reading." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Lector" .
+
+cigars:Libre%20de%20Pie a skos:Concept ;
+    skos:altLabel "sand leaf" ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "The small leaves at the base of the tobacco plant; typically discarded." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Libre de Pie" .
+
+cigars:Lighter a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A device for lighting cigars; butane models are preferred because refined butane exhibits fewer impurities and will not taint flavor." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Lighter" .
+
+cigars:Lighter%20Fluid a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "Liquid fuel used in wick lighters; not recommended for cigars because it is unrefined and can taint the flavor." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Lighter Fluid" .
+
+cigars:Long%20Filler a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "Whole-leaf tobacco used in premium handmade cigars, as opposed to chopped short-filler; called tripa in Spanish." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Long Filler" .
+
+cigars:Lonsdale a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A cigar shape measuring 6 to 7 inches by a 42 to 44 ring gauge; longer than a Corona, not as thin as a Panetela." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Lonsdale" .
+
+cigars:Loose a skos:Concept ;
+    skos:altLabel "underfilled" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A cigar that is under-filled, so too much air passes on the draw; burns hot and fast." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Loose" .
+
+cigars:Machine%20Made a skos:Concept ;
+    skos:altLabel "mass-market" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "Cigars made by machine rather than by hand, using short-filler and homogenized tobacco; manufactured in far greater quantities than premium cigars." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Machine Made" .
+
+cigars:Mata%20Fina a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A prized Brazilian wrapper leaf harvested near the Recôncavo region of the northeastern coast." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Mata Fina" .
+
+cigars:Medio%20Tiempo a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "The small leaves that grow at the very top of the plant; prized by cigar-makers for complex, intense flavor from maximum direct sunlight." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Medio Tiempo" .
+
+cigars:Microfermentation a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "A specialized ageing process applied to small batches of tobacco to enhance complexity and smoothness." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Microfermentation" .
+
+cigars:Mixed%20Filler a skos:Concept ;
+    skos:altLabel "Cuban sandwich" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A handmade cigar using a combination of long-filler and short-filler tobaccos." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Mixed Filler" .
+
+cigars:Mold a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The two-part wood or plastic form, joined under pressure, that conforms the bunch to the cigar shape being made; the word also names the harmful blue or green fungus that develops on cigars stored too warm — such cigars must be discarded." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Mold" .
+
+cigars:Mulling a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "An additional fermentation step for tobacco from the periphery of a pilon, exposed to about 100 degrees Fahrenheit and 90% RH in a mulling room for a more complete fermentation." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Mulling" .
+
+cigars:Natural a skos:Concept ;
+    skos:altLabel "Colorado Claro",
+        "EMS",
+        "English Market Selection" ;
+    skos:broader cigars:Wrapper%20Colors ;
+    skos:definition "A light-brown or golden-blond to medium-brown wrapper color; the modern term for what was once called English Market Selection or Colorado Claro; classic on Connecticut Shade." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Natural" .
+
+cigars:Nicaragua a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "One of the world's most prominent cigar-producing and tobacco-growing nations; its three key regions are Esteli, Jalapa, and Condega, with production centered around Esteli." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q811> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Nicaragua" .
+
+cigars:Nicotiana%20Tabacum a skos:Concept ;
+    skos:altLabel "cultivated tobacco" ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "The most common plant of the genus Nicotiana, from which contemporary commercially grown tobacco derives; found only in cultivation." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q181095> ;
+    skos:historyNote "2026-11-20: the exactMatch mapping to Wikidata Q181095 (Nicotiana tabacum, species of plant), applied with ontology wave 2, was accidentally dropped from the term by a synonym update (an UPDATE_TERM that did not carry the term's conceptMappings — fixed in lakeloom the same day). This proposal restores it."@en ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Nicotiana Tabacum" .
+
+cigars:Nosing a skos:Concept ;
+    skos:altLabel "retronasal olfaction" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "Pushing cigar smoke out through the nose, producing added layers of perceived flavor and aroma." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Nosing" .
+
+cigars:Oil a skos:Concept ;
+    skos:broader cigars:Cigar%20Anatomy ;
+    skos:definition "The desirable oily sheen on a wrapper leaf, a sign of adequate humidification; more common on dark wrappers such as Maduro and Oscuro." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Oil" .
+
+cigars:Olor a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A tobacco varietal grown in the Dominican Republic, used predominantly as binder and filler and known for its large leaves." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Olor" .
+
+cigars:Ometepe a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A volcanic island near Lake Nicaragua whose fertile volcanic soils yield tobacco with a distinctive sweet, earthy taste." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q950875> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Ometepe" .
+
+cigars:Panetela a skos:Concept ;
+    skos:altLabel "Panatela" ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A long, slender cigar shape, typically 5 to 7 inches by a 34 to 38 ring gauge." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Panetela" .
+
+cigars:Papeleta a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A rectangular or oval sticker on the top of a cigar box, wrapping around to the bottom, that must be sliced to open the lid." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Papeleta" .
+
+cigars:Parejo a skos:Concept ;
+    skos:altLabel "Parejos" ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A cigar with straight, parallel sides, such as a traditional Robusto, Churchill, Toro, or Corona." ;
+    skos:historyNote "2026-11-20: the long-standing informal distinction from Figurado was formalised as the axiom parejoDisjointWithFigurado (owl:disjointWith), applied with the first ontology wave and first published in release v1.2.0."@en ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Parejo" ;
+    skos:scopeNote "Parejo is disjoint with Figurado (owl:disjointWith, axiom parejoDisjointWithFigurado): a cigar's shape class is either a Parejo — a cylindrical body with a straight, open foot — or a Figurado with some non-cylindrical element such as a tapered or pointed head. No shape is both, so classifying a cigar as one excludes the other."@en .
+
+cigars:Partido a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A region in Cuba where premium tobacco is grown." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Partido" .
+
+cigars:Passive%20Humidification%20System a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A humidification system that needs no batteries or electricity, such as traditional floral-foam units or Boveda packs." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Passive Humidification System" .
+
+cigars:Pelletized a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "Coated in a neutral material such as clay to make tiny tobacco seeds easier to handle." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Pelletized" .
+
+cigars:Pelo%20D%20Oro a skos:Concept ;
+    skos:altLabel "Pelo d'Oro",
+        "Pelo de Oro" ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "Spanish for 'hair of gold': a tobacco prized for its rich, distinctive flavor; grown in Nicaragua and other regions but uncommon due to disease susceptibility." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Pelo D Oro" .
+
+cigars:Perfecto a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A cigar shape that tapers at both ends; all Perfectos are Figurados, but not all Figurados are Perfectos." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Perfecto" .
+
+cigars:Petit%20Corona a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A smaller version of the Corona, approximately 4.5 to 5 inches by a 38 to 42 ring gauge." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Petit Corona" .
+
+cigars:Piercer a skos:Concept ;
+    skos:altLabel "lance" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A cutter with a sharp needle-like point that penetrates the cap to create airflow; can sometimes remedy a plugged cigar." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Piercer" .
+
+cigars:Pilon a skos:Concept ;
+    skos:altLabel "bulk",
+        "burro",
+        "pilón",
+        "trojes" ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "A large pile (up to 4,000 pounds or more) of cured tobacco leaves assembled for fermentation; dismantled and reassembled several times over months." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Pilon" .
+
+cigars:Piloto%20Cubano a skos:Concept ;
+    skos:altLabel "Piloto" ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A famous varietal of Cuban-seed tobacco grown in the Dominican Republic." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Piloto Cubano" .
+
+cigars:Pinar%20del%20Rio a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A world-famous tobacco-growing region in western Cuba where the country's most legendary and prized tobacco is grown." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Pinar del Rio" ;
+    skos:relatedMatch <http://www.wikidata.org/entity/Q115497> .
+
+cigars:Pre%20Castro%20Cigar a skos:Concept ;
+    skos:altLabel "Pre-Castro" ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A Cuban cigar manufactured prior to Fidel Castro's ascent to power in January 1959." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Pre Castro Cigar" .
+
+cigars:Pre%20Embargo%20Cigar a skos:Concept ;
+    skos:altLabel "Pre-Embargo" ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A Cuban cigar manufactured before the enactment of the US trade embargo against Cuba in 1962." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Pre Embargo Cigar" .
+
+cigars:Press a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A device used to compress cigar molds after bunching (hand-powered or pneumatic) or to compress tobacco bales after fermentation (hydraulic)." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Press" .
+
+cigars:Propylene%20Glycol a skos:Concept ;
+    skos:altLabel "50/50" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A 50/50 solution used to soak humidification units; designed to stop releasing humidity when the humidor reaches 70% RH, so cigars are not oversaturated." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Propylene Glycol" .
+
+cigars:Punch%20Cutter a skos:Concept ;
+    skos:altLabel "Punch",
+        "bull's eye piercer",
+        "bullet cutter" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A cutter with a circular blade that removes a precise section of the cap, keeping it intact; available in various ring gauges; use with careful, twisting pressure." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Punch Cutter" .
+
+cigars:Purging a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "Blowing smoke from the head of a cigar out through the foot to eliminate the buildup of unwanted flavors." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Purging" .
+
+cigars:Pyramid a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A cigar shape that tapers sharply at the head with an open foot; often called a Torpedo." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Pyramid" .
+
+cigars:Quisqueya a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "A rudimentary structure used to cure tobacco in parts of the Dominican Republic; less protective than a traditional curing barn." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Quisqueya" .
+
+cigars:Regional%20Edition a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "Cuban cigars released only in specific regions." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Regional Edition" .
+
+cigars:Robusto a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "The most popular cigar shape in the world, measuring 4.75 to 5.75 inches by a 48 to 52 ring gauge." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Robusto" .
+
+cigars:Roller a skos:Concept ;
+    skos:altLabel "torcedor" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The factory worker who makes the cigar, applying the wrapper leaf to the bunch; in some factories one worker both bunches and rolls." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Roller" .
+
+cigars:Rolling%20Gallery a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The area or floor of a cigar factory where rollers craft cigars by hand." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Rolling Gallery" .
+
+cigars:Rolling%20Method a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "How a cigar is made: booking, the accordion method, or entubado." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Rolling Method" .
+
+cigars:Rolling%20Table a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The often wooden table where a cigar roller sits to make cigars." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Rolling Table" .
+
+cigars:Rosado a skos:Concept ;
+    skos:broader cigars:Wrapper%20Colors ;
+    skos:definition "Spanish for 'rose-colored': Cuban-seed tobaccos exhibiting a reddish-brown color." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Rosado" .
+
+cigars:SCHIP a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "The State Children's Health Care Initiative Program, whose 2009 expansion was funded by the federal excise tax on cigars." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "SCHIP" .
+
+cigars:Salomon a skos:Concept ;
+    skos:altLabel "Salomón" ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A large, curvaceous Figurado, typically 7.25 inches by a 57 ring gauge at its thickest point, tapered at the head and finished with a nipple at the foot; requires great skill to roll." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Salomon" .
+
+cigars:San%20Andres a skos:Concept ;
+    skos:altLabel "San Andrés",
+        "San Andrés Negro" ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A Mexican wrapper leaf named for its growing region, stalk cut and typically dark brown, either oily or dry in texture; prized for rich, spicy, sweet taste." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "San Andres" .
+
+cigars:San%20Vincente a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A tobacco hybrid grown in the Dominican Republic." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "San Vincente" .
+
+cigars:Santiago a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "The second largest city of the Dominican Republic and the area where most Dominican cigar production takes place." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Santiago" .
+
+cigars:Sarta a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "A string used to bind tobacco leaves together during the curing process." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Sarta" .
+
+cigars:Scissors a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "Cigar-cutting scissors with sloping blades designed to embrace the cap of a Parejo without cracking the wrapper; folding models are pocket friendly." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Scissors" .
+
+cigars:Seco a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "The filler priming from the mid-section of the plant; the thinnest and mildest leaf used in the filler." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Seco" .
+
+cigars:Seedbed a skos:Concept ;
+    skos:altLabel "cantero" ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "The bed where tobacco seedlings sprout; today often trays inside greenhouses, planted in excess as insurance against weather." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Seedbed" .
+
+cigars:Seedling a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "A young tobacco plant a few inches high, reached roughly 60 days after planting; transferred from tray or seedbed to the field." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Seedling" .
+
+cigars:Semi%20Boite%20Nature a skos:Concept ;
+    skos:altLabel "Semi-Boite Nature" ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A plain cedar cigar box with a clasp on the front and two rear hinges." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Semi Boite Nature" .
+
+cigars:Short%20Filler a skos:Concept ;
+    skos:altLabel "chop",
+        "chopped-filler",
+        "picadura" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "Chopped-up tobacco scraps used predominantly in cheap machine-made cigars; burns hotter and faster than long filler." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Short Filler" .
+
+cigars:Shoulder a skos:Concept ;
+    skos:broader cigars:Cigar%20Anatomy ;
+    skos:definition "The part of a cigar where the body curves to meet the cap; cut above it so the cap stays intact." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Shoulder" .
+
+cigars:Single a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "The unit of measure for a single cigar, as opposed to a box." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Single" .
+
+cigars:Slide%20Lid%20Box a skos:Concept ;
+    skos:altLabel "cabinet selection box" ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A cabinet-selection-style box with a sliding lid, typically containing 25 or 50 ribbon-bound cigars." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Slide Lid Box" .
+
+cigars:Small%20Batch a skos:Concept ;
+    skos:altLabel "small-batch" ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A cigar made in very small quantities, often due to the rarity of its tobaccos; unlike a limited edition it may be produced annually." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Small Batch" .
+
+cigars:Smoke%20Output a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The volume of smoke a cigar produces, which can indicate its construction quality and tobacco blend." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Smoke Output" .
+
+cigars:Smoking%20Temperature a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The ideal temperature at which a cigar should be enjoyed; overheating produces bitterness and harshness and can lead to tunnelling." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Smoking Temperature" .
+
+cigars:Stalk%20Cut a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "A harvest method where the whole plant is cut at once rather than priming leaves in succession; associated with Connecticut Broadleaf and San Andrés." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Stalk Cut" .
+
+cigars:Stogie a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "Slang term for a cigar." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Stogie" .
+
+cigars:Sucker a skos:Concept ;
+    skos:altLabel "suckers" ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "An unwanted shoot removed from tobacco plants by workers so nutrients reach the leaves." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Sucker" .
+
+cigars:Suggested%20Retail%20Price a skos:Concept ;
+    skos:altLabel "MSRP",
+        "Manufacturer's Suggested Retail Price" ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "The price a manufacturer or distributor charges for a cigar; federal excise tax is often included, but state and local taxes are not, so prices vary by state." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Suggested Retail Price" .
+
+cigars:Sweet%20Spot a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The portion of a cigar that tastes best — where flavor and strength harmonize perfectly on the palate; different for every cigar and smoker." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Sweet Spot" .
+
+cigars:Tabaquero a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "The Cuban term for a tobacco grower." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Tabaquero" .
+
+cigars:Tapaclavo a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "The sticker that conceals the nail in the lid of a box of cigars." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Tapaclavo" .
+
+cigars:Tercios a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "Tobacco bales wrapped in palm bark, used to age fermented tobacco." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Tercios" .
+
+cigars:Thirteen%20Toppers a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A rectangular box format with 12 cigars plus a space holder on the bottom row and 13 on top, usually sealed with a brass nail." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Thirteen Toppers" .
+
+cigars:Tobacco%20Beetle a skos:Concept ;
+    skos:altLabel "beetle" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "Lasioderma serricorne: a 2-3 millimeter beetle that hatches when the humidor temperature exceeds 72 degrees and ruins cigars with tiny pin-sized holes." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Tobacco Beetle" .
+
+cigars:Tobacco%20Seed a skos:Concept ;
+    skos:altLabel "Tobacco Seeds" ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "The tiny origin of the tobacco plant; often pelletized in clay for handling, with farmers collecting seeds from prized plants for future crops." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Tobacco Seed" .
+
+cigars:Tobacco%20Sorting a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The meticulous process of classifying cured tobacco leaves by size, texture, color, and quality before blending and rolling; broader than color sorting (escogida)." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Tobacco Sorting" .
+
+cigars:Top%2025 a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "Cigar Aficionado's annual Top 25 Cigars of the Year list, announced at the end of the year." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Top 25" .
+
+cigars:Topping a skos:Concept ;
+    skos:altLabel "desflorado" ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "Removing the flowers, seeds, or upper portion of the plant so nutrients are redirected to the leaves, making them stronger and sweeter." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Topping" .
+
+cigars:Torch%20Lighter a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A butane lighter producing a concentrated single- or multiple-jet flame; convenient for toasting the foot quickly and performing touch-ups." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Torch Lighter" .
+
+cigars:Toro a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "An extremely popular cigar size measuring 6 to 6.5 inches by a 50 to 54 ring gauge." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Toro" .
+
+cigars:Torpedo a skos:Concept ;
+    skos:altLabel "Pirámide",
+        "pyramid" ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A cigar shape with a sharply tapering closed head; frequently interchanged with Pyramid." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Torpedo" .
+
+cigars:Transplanter a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "A tractor-towed implement that digs a channel and drops seedlings into the ground at worker stations; uncommon outside the Connecticut River Valley." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Transplanter" .
+
+cigars:Trim a skos:Concept ;
+    skos:altLabel "filete" ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "The ornamental elements that embellish the edges of cigar boxes." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Trim" .
+
+cigars:Trumpet a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A cigar shape whose fattest point is the foot, narrowing continually toward the head." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Trumpet" .
+
+cigars:Trunk%20Pressed a skos:Concept ;
+    skos:altLabel "trunk-pressed" ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "The most extreme method of pressing cigars into square shapes, using wooden slats between cigars for very sharp, squared-off edges; associated with the Padron Anniversary line." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Trunk Pressed" .
+
+cigars:Tube a skos:Concept ;
+    skos:altLabel "Tubos",
+        "tubo" ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A glass or aluminum container for an individual cigar, protecting it in a pocket or suitcase; tubed cigars are often wrapped in cedar." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Tube" .
+
+cigars:Tunneling a skos:Concept ;
+    skos:altLabel "Tunnelling" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A burn defect where the inner filler leaves burn faster than the wrapper, often when too much time passes between draws; rotate the cigar to avoid it." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Tunneling" .
+
+cigars:V%20Cutter a skos:Concept ;
+    skos:altLabel "V-cut",
+        "V-cutter",
+        "cat's eye",
+        "wedge cutter" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A cutter that carves a V-shape into the head, drawing smoke from the top and bottom of the cigar and concentrating it on the palate." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "V Cutter" .
+
+cigars:Vega a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A tobacco plantation." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Vega" .
+
+cigars:Vein a skos:Concept ;
+    skos:broader cigars:Cigar%20Anatomy ;
+    skos:definition "The rib of a tobacco leaf that delivers nutrients; pronounced veins are undesirable on wrapper leaves." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Vein" .
+
+cigars:Vertical%20Sampler a skos:Concept ;
+    skos:broader cigars:Cigar%20Culture%20and%20Commerce ;
+    skos:definition "A sampler featuring numerous sizes of one single cigar blend — an opportunity to taste how different shapes present a blend." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Vertical Sampler" .
+
+cigars:Viso a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "The filler priming below Ligero and above Seco; less intense than Ligero, stronger than Seco." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Viso" .
+
+cigars:Vista a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "The inner portion of a cigar box lid, often adorned with the brand's logo or ornate artwork." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Vista" .
+
+cigars:Vitola a skos:Concept ;
+    skos:altLabel "frontmark" ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "A cigar's shape or size; Robusto, Churchill, Toro, and Corona are all vitolas." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Vitola" ;
+    skos:scopeNote "Dimensions of a vitola are expressed in inches (length) and 64ths of an inch (ring gauge); see the lengthInches and ringGauge attributes."@en .
+
+cigars:Volado a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "The filler priming near the bottom of the plant, under Seco; milder than Ligero and valued for its burning properties." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Volado" .
+
+cigars:Vuelta%20Abajo a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A valley in western Cuba prized for the quality of tobacco grown there." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q739259> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Vuelta Abajo" .
+
+cigars:Wheel a skos:Concept ;
+    skos:altLabel "rueda" ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A bundle of 100 cigars, typically bound by a ribbon." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Wheel" .
+
+cigars:Wilting a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "Laying stalk-cut tobacco on the ground to wilt in the sun after harvest." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Wilting" .
+
+cigars:Yankee%20Hinge a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "The long boards on Connecticut River Valley tobacco barns, designed to swing open to increase airflow." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Yankee Hinge" .
+
+cigars:Aging a skos:Concept ;
+    skos:altLabel "Ageing" ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "The process of allowing tobacco to rest under precisely monitored conditions whereby unwanted impurities dissipate; applied to whole leaves in bales and to finished cigars, for months or several years." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Aging" ;
+    skos:related cigars:Bloom .
+
+cigars:Aging%20Room a skos:Concept ;
+    skos:altLabel "Ageing Room" ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "The room in a cigar factory where rolled cigars are stored and allowed to rest so the tobaccos merge flavors; often made of Spanish cedar." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Aging Room" ;
+    skos:related cigars:Escaparates .
+
+cigars:Blend a skos:Concept ;
+    skos:altLabel "Blending" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The complete recipe of tobaccos in a premium cigar: up to five filler leaves, one or two binder leaves, and the exterior wrapper; precise ingredients are rarely revealed." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Blend" ;
+    skos:related cigars:Ligero .
+
+cigars:Bloom a skos:Concept ;
+    skos:altLabel "plume" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "Harmless small white powdery dots, from crystallized natural oils, that appear on an aging cigar's wrapper — a sign of proper aging; not to be confused with harmful blue/green mold." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Bloom" ;
+    skos:related cigars:Aging .
+
+cigars:Box%20Aging a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "Aging cigars in the original box in which they are packaged, which can exhibit distinctively uniform qualities of taste and aroma." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Box Aging" ;
+    skos:related cigars:Cabinet%20Selection .
+
+cigars:Cabinet%20Selection a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A packaging style of 25 or 50 cigars in Spanish cedar boxes, bound with a ribbon inside; the extra air between cigars is believed to facilitate aging." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cabinet Selection" ;
+    skos:related cigars:Box%20Aging .
+
+cigars:Cameroon a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A West African nation well-known for producing a sought-after wrapper varietal; the term also classifies tobacco grown in the neighboring Central African Republic." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q1009> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cameroon" ;
+    skos:related cigars:Tooth .
+
+cigars:Candela a skos:Concept ;
+    skos:altLabel "AMS",
+        "American Market Selection",
+        "Double Claro" ;
+    skos:broader cigars:Wrapper%20Colors ;
+    skos:definition "A green wrapper leaf produced by harvesting before full maturity and fire-curing quickly to lock in chlorophyll; known for mild, grassy, and sweet flavors." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Candela" ;
+    skos:related cigars:Curing .
+
+cigars:Cedar%20Spill a skos:Concept ;
+    skos:altLabel "spill" ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "A long, thin strip of cedar that is lit and then used to light a cigar, transferring no impurities from fuel or matches." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cedar Spill" ;
+    skos:related cigars:Wooden%20Match .
+
+cigars:Cellophane a skos:Concept ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "The thin, clear protective sleeve around individual cigars; safeguards packaging, transport, and retail handling, and inhibits humidity loss." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cellophane" ;
+    skos:related cigars:Humidor .
+
+cigars:Cold%20Draw a skos:Concept ;
+    skos:altLabel "cold taste",
+        "dry draw" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "Taking a draw on a cut but unlit cigar to preview its flavors before lighting." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cold Draw" ;
+    skos:related cigars:Cap .
+
+cigars:Connecticut%20Shade a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "A silky, golden-blond wrapper grown under shade in the Connecticut River Valley, prized for its creamy, rich flavor." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Connecticut Shade" ;
+    skos:related cigars:Wrapper .
+
+cigars:Corojo a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "The most prominent variety of Cuban-seed tobacco today, first introduced in the 1930s and now grown throughout Central America; no longer grown in Cuba due to disease susceptibility." ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q5172088> ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Corojo" ;
+    skos:related cigars:Shade%20Grown .
+
+cigars:Curing a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "The process of gradually removing moisture from tobacco leaves after harvest, taking place in curing barns over roughly 45 days." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Curing" ;
+    skos:related cigars:Candela .
+
+cigars:Cutter a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A tool used to clip or open the cap of a cigar so air can pass; the three most common are the straight (guillotine), punch (bullet), and V (cat's eye) cutters." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cutter" ;
+    skos:related cigars:Cap .
+
+cigars:Escaparates a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The cabinets at a cigar factory where freshly rolled cigars are cooled." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Escaparates" ;
+    skos:related cigars:Aging%20Room .
+
+cigars:Fermentation a skos:Concept ;
+    skos:broader cigars:Curing%20and%20Fermentation ;
+    skos:definition "The process after curing and before aging in which bulks of leaves release ammonia and other impurities under natural heat (up to 140 degrees Fahrenheit) and pressure; can take several months or longer." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Fermentation" ;
+    skos:related cigars:Maduro .
+
+cigars:Filler a skos:Concept ;
+    skos:altLabel "tripa" ;
+    skos:broader cigars:Cigar%20Anatomy ;
+    skos:definition "The innermost leaves of a cigar, surrounded by the binder; premium handmades use between two and five filler leaves." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Filler" ;
+    skos:related cigars:Primings .
+
+cigars:Flag%20Tip a skos:Concept ;
+    skos:altLabel "curly head",
+        "pigtail" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A head finish in which the roller extends and twists off the wrapper leaf instead of applying a traditional cap." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Flag Tip" ;
+    skos:related cigars:Cap .
+
+cigars:Foot a skos:Concept ;
+    skos:broader cigars:Cigar%20Anatomy ;
+    skos:definition "The end of the cigar that is lit." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Foot" ;
+    skos:related cigars:Toasting .
+
+cigars:Gum a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A tasteless, odorless substance used to apply the head of the wrapper leaf around the bunch in a handmade cigar." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Gum" ;
+    skos:related cigars:Cap .
+
+cigars:Maduro a skos:Concept ;
+    skos:broader cigars:Wrapper%20Colors ;
+    skos:definition "Spanish for 'ripe': a very dark brown or nearly black wrapper, achieved through sun exposure or extended fermentation that brings sugars to the leaf surface." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Maduro" ;
+    skos:related cigars:Fermentation .
+
+cigars:Multi%20Origin%20Blend a skos:Concept ;
+    skos:altLabel "Multi-Origin Blend" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A cigar blend that incorporates tobaccos from different countries, offering a diverse and layered smoking experience; the counterpart of a Puro." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Multi Origin Blend" ;
+    skos:related cigars:Puro .
+
+cigars:Nicotine%20Strength a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The amount of nicotine present in a cigar, influenced by the type and priming of the tobacco leaves used." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Nicotine Strength" ;
+    skos:related cigars:Ligero .
+
+cigars:Oscuro a skos:Concept ;
+    skos:altLabel "Double Maduro" ;
+    skos:broader cigars:Wrapper%20Colors ;
+    skos:definition "The darkest color of wrapper leaf, darker than Maduro, associated with pronounced intensity." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Oscuro" ;
+    skos:related cigars:Sun%20Grown .
+
+cigars:Plugged a skos:Concept ;
+    skos:altLabel "Plug" ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "Having an obstructed draw; a piercer can sometimes loosen the tobacco, otherwise the cigar is unsmokable." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Plugged" ;
+    skos:related cigars:Bunching .
+
+cigars:Primings a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "The vertical stations of a tobacco plant, harvested bottom-up a few leaves at a time; from bottom: Volado, Seco, Viso, Ligero; leaves strengthen with height and sunlight." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Primings" ;
+    skos:related cigars:Filler .
+
+cigars:Puro a skos:Concept ;
+    skos:broader cigars:Tobaccos%20and%20Origins ;
+    skos:definition "Spanish for 'cigar'; specifically a cigar whose binder, filler, and wrapper tobaccos are all grown in one nation." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Puro" ;
+    skos:related cigars:Multi%20Origin%20Blend .
+
+cigars:Smoking%20Time a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The duration a cigar burns: roughly 30 minutes for a 5x50 Robusto, over an hour for a 7.5x52 Double Corona; thinner cigars burn hotter and faster." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Smoking Time" ;
+    skos:related cigars:Ring%20Gauge .
+
+cigars:Spanish%20Cedar a skos:Concept ;
+    skos:altLabel "cedar" ;
+    skos:broader cigars:Cigar%20Packaging ;
+    skos:definition "Cedrela, a mahogany-family tree harvested in tropical regions; ideal for cigar boxes and humidors because it reacts positively with moisture and benefits aging; also a tasting note." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Spanish Cedar" ;
+    skos:related cigars:Humidor .
+
+cigars:Sun%20Grown a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "Tobacco grown in direct sunlight, yielding thicker leaves with stronger veins; fuller and stronger than shade grown; all filler tobacco is sun grown." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Sun Grown" ;
+    skos:related cigars:Oscuro .
+
+cigars:Toasting a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The process of slowly warming the foot of a cigar with a flame before lighting it, to ensure an even burn." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Toasting" ;
+    skos:related cigars:Foot .
+
+cigars:Tooth a skos:Concept ;
+    skos:broader cigars:Cigar%20Anatomy ;
+    skos:definition "Tiny bumps on a cigar's wrapper leaf formed by oil pockets; common on Cameroon wrappers." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Tooth" ;
+    skos:related cigars:Cameroon .
+
+cigars:Triple%20Cap a skos:Concept ;
+    skos:altLabel "mounted head" ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "A cap with three seams; a Cuban style of finishing the head, now also used in Nicaragua, Honduras, and sometimes the Dominican Republic." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Triple Cap" ;
+    skos:related cigars:Cap .
+
+cigars:Wooden%20Match a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The best match for lighting a cigar: a long cedar match." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Wooden Match" ;
+    skos:related cigars:Cedar%20Spill .
+
+cigars:Bunching a skos:Concept ;
+    skos:broader cigars:Cigar%20Production ;
+    skos:definition "The process of grouping and rolling the filler leaves into a bunch before it is wrapped with the binder and wrapper." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Bunching" ;
+    skos:related cigars:Draw,
+        cigars:Plugged .
+
+cigars:Draw a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "The process of pulling air through a cigar, or the pull itself; a measure of the cigar's construction, affected by the style of cut." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Draw" ;
+    skos:related cigars:Bunching,
+        cigars:Ring%20Gauge .
+
+cigars:Humidor a skos:Concept ;
+    skos:broader cigars:Storage%20and%20Smoking ;
+    skos:definition "A box for storing cigars, often of Spanish cedar with a tight seal maintaining 65-70% relative humidity; also the room in a cigar shop where cigars are stored and displayed." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Humidor" ;
+    skos:related cigars:Cellophane,
+        cigars:Spanish%20Cedar .
+
+cigars:Ligero a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "The topmost filler priming; the thickest, heartiest, and strongest leaves because they receive the most sunlight." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Ligero" ;
+    skos:related cigars:Blend,
+        cigars:Nicotine%20Strength .
+
+cigars:Ring%20Gauge a skos:Concept ;
+    skos:broader cigars:Vitolas ;
+    skos:definition "The diameter of a cigar, measured in 64ths of an inch: a 50 ring gauge is 50/64 of an inch thick. Larger ring gauges generally burn cooler and can carry more complex blends." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Ring Gauge" ;
+    skos:related cigars:Draw,
+        cigars:Smoking%20Time .
+
+cigars:Shade%20Grown a skos:Concept ;
+    skos:broader cigars:Tobacco%20Cultivation ;
+    skos:definition "Wrapper leaf grown under a tent (historically cheesecloth, now nylon) that filters sunlight, producing thinner, more elastic leaves; most associated with Connecticut." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Shade Grown" ;
+    skos:related cigars:Corojo,
+        cigars:Wrapper .
+
+cigars:Wrapper a skos:Concept ;
+    skos:altLabel "capa",
+        "cover leaf" ;
+    skos:broader cigars:Cigar%20Anatomy ;
+    skos:definition "The outermost and highest-quality leaf of a premium cigar; the most expensive leaf, ideally free of veins, tears, and cosmetic imperfections." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Wrapper" ;
+    skos:related cigars:Connecticut%20Shade,
+        cigars:Shade%20Grown ;
+    skos:scopeNote "Some references credit the wrapper with contributing up to 60% of a cigar's flavor, in addition to its dominant role in appearance and aroma."@en .
+
+cigars:Cap a skos:Concept ;
+    skos:broader cigars:Cigar%20Anatomy ;
+    skos:definition "The small leaf that covers and secures the head of the cigar; it must be cut or removed before smoking." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:prefLabel "Cap" ;
+    skos:related cigars:Cold%20Draw,
+        cigars:Cutter,
+        cigars:Flag%20Tip,
+        cigars:Gum,
+        cigars:Triple%20Cap .
+
+cigars:Wrapper%20Colors a skos:Concept ;
+    skos:definition "The color spectrum of wrapper leaves, from Candela through Claro, Colorado, and Maduro to Oscuro." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:narrower cigars:Amarillo,
+        cigars:Candela,
+        cigars:Claro,
+        cigars:Colorado,
+        cigars:Colorado%20Maduro,
+        cigars:Maduro,
+        cigars:Natural,
+        cigars:Oscuro,
+        cigars:Rosado ;
+    skos:prefLabel "Wrapper Colors" ;
+    skos:topConceptOf <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> .
+
+cigars:Cigar%20Anatomy a skos:Concept ;
+    skos:definition "The physical parts of a cigar and their roles: filler, binder, wrapper, cap, head, foot, and shoulder." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:narrower cigars:Ash,
+        cigars:Band,
+        cigars:Binder,
+        cigars:Cap,
+        cigars:Filler,
+        cigars:Foot,
+        cigars:Head,
+        cigars:Oil,
+        cigars:Shoulder,
+        cigars:Tooth,
+        cigars:Vein,
+        cigars:Wrapper ;
+    skos:prefLabel "Cigar Anatomy" ;
+    skos:topConceptOf <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> .
+
+cigars:Tobacco%20Cultivation a skos:Concept ;
+    skos:definition "Growing tobacco: seeds, seedlings, primings, shade versus sun growing, and harvesting." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:narrower cigars:Blue%20Mold,
+        cigars:Cheesecloth,
+        cigars:Encallado,
+        cigars:Hybrid,
+        cigars:Libre%20de%20Pie,
+        cigars:Ligero,
+        cigars:Medio%20Tiempo,
+        cigars:Nicotiana%20Tabacum,
+        cigars:Pelletized,
+        cigars:Primings,
+        cigars:Seco,
+        cigars:Seedbed,
+        cigars:Seedling,
+        cigars:Shade%20Grown,
+        cigars:Stalk%20Cut,
+        cigars:Sucker,
+        cigars:Sun%20Grown,
+        cigars:Tobacco%20Seed,
+        cigars:Topping,
+        cigars:Transplanter,
+        cigars:Viso,
+        cigars:Volado,
+        cigars:Wilting ;
+    skos:prefLabel "Tobacco Cultivation" ;
+    skos:topConceptOf <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> .
+
+cigars:Curing%20and%20Fermentation a skos:Concept ;
+    skos:definition "Post-harvest processing of tobacco leaves: curing, fermentation, and ageing." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:narrower cigars:Aging,
+        cigars:Aging%20Room,
+        cigars:Ammonia,
+        cigars:Bale,
+        cigars:Box%20Aging,
+        cigars:Calfrisa,
+        cigars:Carbon,
+        cigars:Carotene,
+        cigars:Casing,
+        cigars:Cuje,
+        cigars:Curing,
+        cigars:Curing%20Barn,
+        cigars:Doghouse,
+        cigars:Empilonando,
+        cigars:Ensarte,
+        cigars:Fermentation,
+        cigars:Firemen,
+        cigars:Hand,
+        cigars:Microfermentation,
+        cigars:Mulling,
+        cigars:Pilon,
+        cigars:Quisqueya,
+        cigars:Sarta,
+        cigars:Tercios,
+        cigars:Yankee%20Hinge ;
+    skos:prefLabel "Curing and Fermentation" ;
+    skos:topConceptOf <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> .
+
+cigars:Cigar%20Packaging a skos:Concept ;
+    skos:definition "Packaging formats and materials for cigars: boxes, tubes, cellophane, bundles, and cedar." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:narrower cigars:Bofeton,
+        cigars:Boite%20Nature,
+        cigars:Box,
+        cigars:Box%20Code,
+        cigars:Brooch,
+        cigars:Bundle,
+        cigars:Cabinet%20Selection,
+        cigars:Cedar%20Spill,
+        cigars:Cellophane,
+        cigars:Coffin,
+        cigars:Collars,
+        cigars:Costero,
+        cigars:Cubierta,
+        cigars:Eight%20Nine%20Eight,
+        cigars:Foil,
+        cigars:Glass%20Jar,
+        cigars:Half%20Wheel,
+        cigars:Larguero,
+        cigars:Papeleta,
+        cigars:Semi%20Boite%20Nature,
+        cigars:Slide%20Lid%20Box,
+        cigars:Spanish%20Cedar,
+        cigars:Tapaclavo,
+        cigars:Thirteen%20Toppers,
+        cigars:Trim,
+        cigars:Tube,
+        cigars:Vista,
+        cigars:Wheel ;
+    skos:prefLabel "Cigar Packaging" ;
+    skos:topConceptOf <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> .
+
+cigars:Vitolas a skos:Concept ;
+    skos:definition "Cigar shapes and sizes: the named formats, from parejos such as Corona and Robusto to figurados such as Torpedo and Perfecto." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:narrower cigars:A%20Size,
+        cigars:Belicoso,
+        cigars:Box%20Pressed,
+        cigars:Cheroot,
+        cigars:Churchill,
+        cigars:Cigarillo,
+        cigars:Corona,
+        cigars:Corona%20Gorda,
+        cigars:Culebra,
+        cigars:Diadema,
+        cigars:Double%20Corona,
+        cigars:Figurado,
+        cigars:Gorda,
+        cigars:Gordito,
+        cigars:Gran%20Corona,
+        cigars:Lancero,
+        cigars:Lonsdale,
+        cigars:Panetela,
+        cigars:Parejo,
+        cigars:Perfecto,
+        cigars:Petit%20Corona,
+        cigars:Pyramid,
+        cigars:Ring%20Gauge,
+        cigars:Robusto,
+        cigars:Salomon,
+        cigars:Toro,
+        cigars:Torpedo,
+        cigars:Trumpet,
+        cigars:Trunk%20Pressed,
+        cigars:Vitola ;
+    skos:prefLabel "Vitolas" ;
+    skos:topConceptOf <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> .
+
+cigars:Tobaccos%20and%20Origins a skos:Concept ;
+    skos:definition "Tobacco varieties, seed strains, and the regions and countries where cigar tobacco is grown." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:narrower cigars:Arapiraca,
+        cigars:Bonao,
+        cigars:Cameroon,
+        cigars:Cibao%20Valley,
+        cigars:Condega,
+        cigars:Connecticut%20Broadleaf,
+        cigars:Connecticut%20Habano,
+        cigars:Connecticut%20River%20Valley,
+        cigars:Connecticut%20Shade,
+        cigars:Corojo,
+        cigars:Cuban%20Seed,
+        cigars:Dominican%20Republic,
+        cigars:Ecuador,
+        cigars:Esteli,
+        cigars:Habano,
+        cigars:Havana,
+        cigars:Honduras,
+        cigars:ISOM,
+        cigars:Jalapa,
+        cigars:Jamastran,
+        cigars:Mata%20Fina,
+        cigars:Nicaragua,
+        cigars:Olor,
+        cigars:Ometepe,
+        cigars:Partido,
+        cigars:Pelo%20D%20Oro,
+        cigars:Piloto%20Cubano,
+        cigars:Pinar%20del%20Rio,
+        cigars:Puro,
+        cigars:San%20Andres,
+        cigars:San%20Vincente,
+        cigars:Santiago,
+        cigars:Vuelta%20Abajo ;
+    skos:prefLabel "Tobaccos and Origins" ;
+    skos:topConceptOf <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> .
+
+cigars:Cigar%20Production a skos:Concept ;
+    skos:definition "Factory processes for making cigars: rolling methods, bunching, blending, sorting, and quality control." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:narrower cigars:Accordion%20Method,
+        cigars:Blend,
+        cigars:Blind%20Taste,
+        cigars:Booking,
+        cigars:Bunch,
+        cigars:Buncher,
+        cigars:Bunching,
+        cigars:Bunching%20Machine,
+        cigars:Chaveta,
+        cigars:Cigar%20Maker,
+        cigars:Cigar%20Rolling,
+        cigars:Color%20Sorting,
+        cigars:Destemming,
+        cigars:Draw%20Test%20Machine,
+        cigars:Entubar,
+        cigars:Escaparates,
+        cigars:Flag%20Tip,
+        cigars:Gum,
+        cigars:Hand%20Rolled,
+        cigars:Homogenized%20Tobacco%20Leaf,
+        cigars:Lector,
+        cigars:Long%20Filler,
+        cigars:Machine%20Made,
+        cigars:Mixed%20Filler,
+        cigars:Mold,
+        cigars:Multi%20Origin%20Blend,
+        cigars:Press,
+        cigars:Roller,
+        cigars:Rolling%20Gallery,
+        cigars:Rolling%20Method,
+        cigars:Rolling%20Table,
+        cigars:Short%20Filler,
+        cigars:Tobacco%20Sorting,
+        cigars:Triple%20Cap ;
+    skos:prefLabel "Cigar Production" ;
+    skos:topConceptOf <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> .
+
+cigars:Cigar%20Culture%20and%20Commerce a skos:Concept ;
+    skos:definition "Terms from cigar culture and the trade: slang, aficionado practices, brands, and commerce." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:narrower cigars:Bethune,
+        cigars:Blowout%20Bin,
+        cigars:Boutique,
+        cigars:Brother%20Of%20The%20Leaf,
+        cigars:Buckeye,
+        cigars:Chinchal,
+        cigars:Cigar%20Association%20of%20America,
+        cigars:Cigar%20Bar,
+        cigars:Cigar%20Boom,
+        cigars:Cigar%20Box%20Tool,
+        cigars:Cigar%20Case,
+        cigars:Cigar%20Lounge,
+        cigars:Cigar%20Rights%20of%20America,
+        cigars:Clear%20Havana,
+        cigars:Closeout,
+        cigars:Cubatabaco,
+        cigars:Federal%20Excise%20Tax,
+        cigars:Glass%20Top%20Cohibas,
+        cigars:Guajiro,
+        cigars:Guayabera,
+        cigars:Habanos%20SA,
+        cigars:IPCPR,
+        cigars:La%20Casa%20Del%20Habano,
+        cigars:Pre%20Castro%20Cigar,
+        cigars:Pre%20Embargo%20Cigar,
+        cigars:Regional%20Edition,
+        cigars:SCHIP,
+        cigars:Single,
+        cigars:Small%20Batch,
+        cigars:Stogie,
+        cigars:Suggested%20Retail%20Price,
+        cigars:Tabaquero,
+        cigars:Top%2025,
+        cigars:Vega,
+        cigars:Vertical%20Sampler ;
+    skos:prefLabel "Cigar Culture and Commerce" ;
+    skos:topConceptOf <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> .
+
+cigars:Storage%20and%20Smoking a skos:Concept ;
+    skos:definition "Keeping and enjoying cigars: humidors, cutters, lighters, lighting technique, draw, burn behavior, and the smoking experience." ;
+    skos:inScheme <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> ;
+    skos:narrower cigars:Active%20Humidification%20System,
+        cigars:Aroma,
+        cigars:Aroma%20Wheel,
+        cigars:Bleeding,
+        cigars:Bleeding%20the%20Lighter,
+        cigars:Bloom,
+        cigars:Butane,
+        cigars:Canoeing,
+        cigars:Cold%20Draw,
+        cigars:Combustion,
+        cigars:Complexity,
+        cigars:Cutter,
+        cigars:Dipping,
+        cigars:Draw,
+        cigars:Finish,
+        cigars:Firm,
+        cigars:Guillotine,
+        cigars:Hot,
+        cigars:Humidification%20Element,
+        cigars:Humidor,
+        cigars:Hygrometer,
+        cigars:Inhale,
+        cigars:Lighter,
+        cigars:Lighter%20Fluid,
+        cigars:Loose,
+        cigars:Nicotine%20Strength,
+        cigars:Nosing,
+        cigars:Passive%20Humidification%20System,
+        cigars:Piercer,
+        cigars:Plugged,
+        cigars:Propylene%20Glycol,
+        cigars:Punch%20Cutter,
+        cigars:Purging,
+        cigars:Scissors,
+        cigars:Smoke%20Output,
+        cigars:Smoking%20Temperature,
+        cigars:Smoking%20Time,
+        cigars:Sweet%20Spot,
+        cigars:Toasting,
+        cigars:Tobacco%20Beetle,
+        cigars:Torch%20Lighter,
+        cigars:Tunneling,
+        cigars:V%20Cutter,
+        cigars:Wooden%20Match ;
+    skos:prefLabel "Storage and Smoking" ;
+    skos:topConceptOf <https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> .
+
+<https://open-metadata.org/entity/glossary/2d4821f6-6d17-46e9-b5b6-b5af8b6068c0> a skos:ConceptScheme ;
+    skos:definition "Semantic model of the cigar domain: controlled vocabulary of cigar terms harvested from the Holt's Cigar Company glossary (https://www.holts.com/clubhouse/cigar-101/glossary-of-terms), covering anatomy, vitolas, wrapper colors, cultivation, curing and fermentation, rolling and factory, packaging, storage and smoking, and culture and commerce." ;
+    skos:hasTopConcept cigars:Cigar%20Anatomy,
+        cigars:Cigar%20Culture%20and%20Commerce,
+        cigars:Cigar%20Packaging,
+        cigars:Cigar%20Production,
+        cigars:Curing%20and%20Fermentation,
+        cigars:Storage%20and%20Smoking,
+        cigars:Tobacco%20Cultivation,
+        cigars:Tobaccos%20and%20Origins,
+        cigars:Vitolas,
+        cigars:Wrapper%20Colors .

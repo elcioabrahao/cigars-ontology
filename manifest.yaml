@@ -1,0 +1,13 @@
+model: "cigars"
+glossary_id: "2d4821f6-6d17-46e9-b5b6-b5af8b6068c0"
+glossary_fqn: "cigars"
+base_iri: "http://localhost:8000/ontology/cigars/"
+prefixes:
+  "cigars": "http://localhost:8000/ontology/cigars/"
+om_version: "2.1.0-rc1"
+model_version: "g1795171262781-n296"
+last_change_set: null
+last_proposal: ""
+release: "2.1.0"
+released_at: "2026-11-20T14:37:03Z"
+source_tables: []
