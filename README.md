@@ -14,7 +14,7 @@ as versioned, checksum-verified RDF artifacts.
 | Axioms | 6 — 5 exact-cardinality restrictions + 1 class disjointness (Parejo ⊥ Figurado) |
 | External mappings | 18 links to Wikidata (16 `skos:exactMatch`, 1 `closeMatch`, 1 `relatedMatch`) |
 | Shapes | 283 SHACL node shapes, 6 property shapes |
-| Governance notes | scope and history notes on 4 concepts |
+| Governance notes | 5 scope/history notes on 4 concepts |
 | Current release | **v2.1.0** |
 
 ## What's in this repository
@@ -53,10 +53,11 @@ state is captured by a semantic-versioned release.
 1. **Vocabulary.** 258 terms were harvested from a domain glossary into OpenMetadata as a
    glossary, then every term was given a definition; a curation round added 15 missing
    concepts, ending at 283 defined concepts.
-2. **Taxonomy.** Ten thematic top-level categories (Cigar Anatomy, Cigar Components,
-   Cigars, Cigar Production, Aging and Storage, Cigar Flavors and Aromas, Cigar Pairings,
-   Cigar Accessories, Smoking, Tobaccos and Origins, Tobacco Cultivation) were created and
-   all 273 non-root terms were re-parented under them.
+2. **Taxonomy.** Ten thematic top-level categories were created and all 273 non-root terms
+   were re-parented under them: Cigar Anatomy (12 direct children), Wrapper Colors (9),
+   Vitolas (30), Cigar Packaging (28), Cigar Production (34), Curing and Fermentation (25),
+   Tobacco Cultivation (23), Tobaccos and Origins (33), Storage and Smoking (44) and
+   Cigar Culture and Commerce (35).
 3. **Thesaurus.** 27 associative (related-term) links were curated pairwise — e.g.
    Cameroon ↔ Wrapper tooth, Vuelta Abajo ↔ Wrapper — on top of the 273 hierarchical
    links, plus alternative labels (116 in the current release).
